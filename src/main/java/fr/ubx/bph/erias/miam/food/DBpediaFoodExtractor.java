@@ -1,7 +1,7 @@
 /**
  * 
  */
-package fr.ubx.bph.erias.food;
+package fr.ubx.bph.erias.miam.food;
 
 import java.io.IOException;
 
