@@ -50,8 +50,8 @@ public class DBpediaFoodExtractor {
         String categoryURL = element.attr("href");
         String categoryName =
             categoryURL.substring(categoryURL.lastIndexOf(':') + 1);
-        out.write("  \"" + seedCategoryName + "\"" + " -> " + "\"" + categoryName
-            + "\";" + System.lineSeparator());
+        out.write("  \"" + seedCategoryName + "\"" + " -> " + "\""
+            + categoryName + "\";" + System.lineSeparator());
 
         System.out.println(seedCategoryName + " " + categoryName);
 
@@ -69,17 +69,23 @@ public class DBpediaFoodExtractor {
     return categoryURLList;
   }
 
-  public void recursiveDownloadNarrowerCategories(String seedPageURI) {
+  public List<String> recursiveDownloadNarrowerCategories(String seedPageURI,
+      List<String> allCategories) {
 
     List<String> narrowerCategories;
     try {
       narrowerCategories = downloadNarrowerCategories(seedPageURI);
 
       for (String dbPediaConceptURI : narrowerCategories) {
-        recursiveDownloadNarrowerCategories(dbPediaConceptURI);
+        if (!allCategories.contains(dbPediaConceptURI)) {
+          allCategories.add(dbPediaConceptURI);
+          recursiveDownloadNarrowerCategories(dbPediaConceptURI, allCategories);
+        }
       }
     } catch (IOException e) {
       e.printStackTrace();
     }
+
+    return allCategories;
   }
 }

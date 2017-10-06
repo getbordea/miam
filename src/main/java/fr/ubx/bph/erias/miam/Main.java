@@ -1,6 +1,7 @@
 package fr.ubx.bph.erias.miam;
 
-import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import fr.ubx.bph.erias.miam.food.DBpediaFoodExtractor;
 
@@ -15,7 +16,8 @@ public class Main {
 
     System.out.println("Extracting DBpedia subcategories for " + SEED);
 
-    dfe.recursiveDownloadNarrowerCategories(SEED);
+    List<String> emptyList = new ArrayList<String>(); 
+    dfe.recursiveDownloadNarrowerCategories(SEED, emptyList);
     
     //try {
     //  dfe.downloadNarrowerCategories(SEED);
