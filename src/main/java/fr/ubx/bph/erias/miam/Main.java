@@ -1,5 +1,6 @@
 package fr.ubx.bph.erias.miam;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,12 +19,6 @@ public class Main {
 
     List<String> emptyList = new ArrayList<String>(); 
     dfe.recursiveDownloadNarrowerCategories(SEED, emptyList);
-    
-    //try {
-    //  dfe.downloadNarrowerCategories(SEED);
-    //} catch (IOException e) {
-    //  e.printStackTrace();
-    //}
     
     System.out.println("Done.");
   }
