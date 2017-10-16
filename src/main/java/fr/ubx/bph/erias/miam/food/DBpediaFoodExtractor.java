@@ -37,10 +37,17 @@ public class DBpediaFoodExtractor {
       "geographical_indications", "studio", "trade", "standards", "campaigns",
       "litigation", "player", "spots", "haze", "crisis", "scandal",
       "popular_culture", "flour_mills", "criticism", "books", "list_of",
-      "lists_of", "brand" };
+      "lists_of", "brand" , "logos"};
 
   String[] STOP_CATEGORIES =
       { "carnivory", "alcoholic_drink_brands", "cherry_blossom" };
+
+  String DBO = "http://dbpedia.org/ontology/";
+
+  String[] STOP_RDF_TYPES = { DBO + "Person", DBO + "Company",
+      DBO + "Organisation", DBO + "Book", DBO + "Place", DBO + "Software" };
+
+  String[] KEEP_RDF_TYPES = { DBO + "Food", DBO + "Beverage" };
 
   String[] LEAF_CATEGORIES = { "wine", "beer", "whisky", "whiskey" };
 
@@ -70,15 +77,20 @@ public class DBpediaFoodExtractor {
           // System.out.print(element.text() + " ");
 
           String categoryURL = element.attr("href");
+
           String categoryName =
               categoryURL.substring(categoryURL.lastIndexOf(':') + 1);
+          
+          if (!isFilteredCategory(categoryURL)
+              && !hasFilteredType(categoryURL)) {
 
-          if (!isFilteredCategory(categoryName)) {
             out.write("  \"Category:" + seedCategoryName + "\"" + " -> "
                 + "\"Category:" + categoryName + "\";"
                 + System.lineSeparator());
 
             System.out.println(seedCategoryName + " " + categoryName);
+          } else {
+            System.out.println("Filtering DBpedia resource: " + categoryName);
           }
           categoryURLList.add(categoryURL);
         }
@@ -93,11 +105,13 @@ public class DBpediaFoodExtractor {
           String elementName =
               elementURL.substring(elementURL.lastIndexOf('/') + 1);
 
-          if (!isFilteredCategory(elementName)) {
+          if (!isFilteredCategory(elementURL) && !hasFilteredType(elementURL)) {
             out.write("  \"Category:" + seedCategoryName + "\"" + " -> " + "\""
                 + elementName + "\";" + System.lineSeparator());
 
             System.out.println(seedCategoryName + " " + elementName);
+          } else {
+            System.out.println("Filtering DBpedia resource: " + elementName);
           }
         }
 
@@ -127,16 +141,13 @@ public class DBpediaFoodExtractor {
       narrowerCategories = downloadNarrowerCategories(seedPageURI, fstream);
       for (String dbPediaConceptURI : narrowerCategories) {
 
-        String categoryName =
-            dbPediaConceptURI.substring(dbPediaConceptURI.lastIndexOf(':') + 1);
-
-        if (isFilteredCategory(categoryName)) {
-          System.out.println("Ignoring stop category " + categoryName);
+        if (isFilteredCategory(dbPediaConceptURI)) {
+          System.out.println("Ignoring stop category " + dbPediaConceptURI);
         } else {
           if (!allCategories.contains(dbPediaConceptURI)) {
             allCategories.add(dbPediaConceptURI);
 
-            if (!isLeafCategory(categoryName)) {
+            if (!isLeafCategory(dbPediaConceptURI)) {
               recursiveDownloadNarrowerCategories(dbPediaConceptURI,
                   allCategories);
             }
@@ -150,7 +161,11 @@ public class DBpediaFoodExtractor {
     return allCategories;
   }
 
-  private boolean isLeafCategory(String categoryName) {
+  private boolean isLeafCategory(String dbPediaConceptURI) {
+
+    String categoryName =
+        dbPediaConceptURI.substring(dbPediaConceptURI.lastIndexOf(':') + 1);
+
     categoryName = categoryName.toLowerCase();
 
     if (Arrays.asList(LEAF_CATEGORIES).contains(categoryName)) {
@@ -160,7 +175,37 @@ public class DBpediaFoodExtractor {
     return false;
   }
 
-  private boolean isFilteredCategory(String categoryName) {
+  private boolean hasFilteredType(String dbpediaUrl) throws IOException {
+    Elements typeElements;
+    Document doc = Jsoup.connect(dbpediaUrl).get();
+    typeElements = doc.body().getElementsByAttributeValue("rel", "rdf:type");
+
+    Boolean hasStopType = false;
+
+    Boolean hasKeepType = false;
+
+    for (Element element : typeElements) {
+      String typeURL = element.attr("href");
+      if (Arrays.asList(STOP_RDF_TYPES).contains(typeURL)) {
+        hasStopType = true;
+      }
+
+      if (Arrays.asList(KEEP_RDF_TYPES).contains(typeURL)) {
+        hasKeepType = true;
+      }
+    }
+    
+    if (hasStopType && !hasKeepType) {
+      return true;
+    } else {
+      return false; 
+    }
+  }
+
+  private boolean isFilteredCategory(String dbPediaConceptURI) {
+
+    String categoryName =
+        dbPediaConceptURI.substring(dbPediaConceptURI.lastIndexOf(':') + 1);
 
     categoryName = categoryName.toLowerCase();
 

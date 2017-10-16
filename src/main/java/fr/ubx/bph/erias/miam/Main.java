@@ -14,7 +14,8 @@ public class Main {
     DBpediaFoodExtractor dfe = new DBpediaFoodExtractor();
 
     final String SEED = "http://dbpedia.org/page/Category:Foods";
-
+    //final String SEED = "http://dbpedia.org/page/Category:Popcorn";
+    
     System.out.println("Extracting DBpedia subcategories for " + SEED);
 
     List<String> emptyList = new ArrayList<String>(); 
