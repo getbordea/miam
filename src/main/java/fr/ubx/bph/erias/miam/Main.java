@@ -2,7 +2,9 @@ package fr.ubx.bph.erias.miam;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import fr.ubx.bph.erias.miam.food.DBpediaFoodExtractor;
 
@@ -18,8 +20,14 @@ public class Main {
     
     System.out.println("Extracting DBpedia subcategories for " + SEED);
 
-    List<String> emptyList = new ArrayList<String>(); 
-    dfe.recursiveDownloadNarrowerCategories(SEED, emptyList);
+    Set<String> categSet = new HashSet<String>();
+    categSet = dfe.recursiveDownloadNarrowerCategories(SEED, categSet);
+    
+    try {
+      dfe.printURIsToFile(categSet);
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
     
     System.out.println("Done.");
   }
