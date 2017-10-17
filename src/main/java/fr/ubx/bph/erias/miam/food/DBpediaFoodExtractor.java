@@ -39,18 +39,21 @@ public class DBpediaFoodExtractor {
       "pathogens", "geographical_indications", "studio", "trade", "standards",
       "campaigns", "litigation", "player", "spots", "haze", "crisis", "scandal",
       "popular_culture", "flour_mills", "criticism", "books", "list_of",
-      "lists_of", "brand", "producer", "video_game", "tv_series", "theory", "logos" };
+      "lists_of", "brand", "producer", "video_game", "tv_series", "theory",
+      "logos" };
 
-  String[] STOP_CATEGORIES = { "carnivory", "alcoholic_drink_brands",
-      "cherry_blossom", "halophiles", "forages", "decorative_fruits_and_seeds" };
+  String[] STOP_CATEGORIES =
+      { "carnivory", "alcoholic_drink_brands", "cherry_blossom", "halophiles",
+          "forages", "decorative_fruits_and_seeds" };
 
   String DBO = "http://dbpedia.org/ontology/";
 
   String[] STOP_RDF_TYPES = { DBO + "Person", DBO + "Company",
-      DBO + "Organisation", DBO + "Book", DBO + "Place", DBO + "Software" };
+      DBO + "Organisation", DBO + "Book", DBO + "Place", DBO + "Software",
+      DBO + "Place", DBO + "Location", DBO + "Building", DBO + "Restaurant" };
 
   String[] KEEP_RDF_TYPES = { DBO + "Food", DBO + "Beverage" };
-  
+
   String[] LEAF_CATEGORIES = { "wine", "beer", "whisky", "whiskey", "rubus",
       "onions", "table_grape_varieties", "grape_varieties", "quails", "grouse",
       "geese", "swans", "ducks" };
@@ -84,7 +87,7 @@ public class DBpediaFoodExtractor {
 
           String categoryName =
               categoryURL.substring(categoryURL.lastIndexOf(':') + 1);
-          
+
           if (!isFilteredCategory(categoryURL)
               && !hasFilteredType(categoryURL)) {
 
@@ -93,10 +96,11 @@ public class DBpediaFoodExtractor {
                 + System.lineSeparator());
 
             System.out.println(seedCategoryName + " " + categoryName);
+
+            categoryURLSet.add(categoryURL);
           } else {
             System.out.println("Filtering DBpedia resource: " + categoryName);
           }
-          categoryURLSet.add(categoryURL);
         }
 
         subjectOfElements =
@@ -113,11 +117,12 @@ public class DBpediaFoodExtractor {
             out.write("  \"Category:" + seedCategoryName + "\"" + " -> " + "\""
                 + elementName + "\";" + System.lineSeparator());
 
+            categoryURLSet.add(elementURL);
+
             System.out.println(seedCategoryName + " " + elementName);
           } else {
             System.out.println("Filtering DBpedia resource: " + elementName);
           }
-          categoryURLSet.add(elementURL);
         }
 
       } catch (IOException e) {
@@ -207,11 +212,11 @@ public class DBpediaFoodExtractor {
         hasKeepType = true;
       }
     }
-    
+
     if (hasStopType && !hasKeepType) {
       return true;
     } else {
-      return false; 
+      return false;
     }
   }
 
