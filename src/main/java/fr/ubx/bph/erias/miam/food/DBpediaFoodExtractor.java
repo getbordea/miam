@@ -280,7 +280,15 @@ public class DBpediaFoodExtractor {
       out = new BufferedWriter(fstream);
 
       for (String uri : uriSet) {
-        out.write(uri + System.lineSeparator());
+        out.write(uri);
+
+        String frenchURI = extractFrenchURI(uri);
+
+        if (frenchURI != null) {
+          out.write("," + frenchURI);
+        }
+
+        out.write(System.lineSeparator());
       }
     } catch (IOException e) {
       e.printStackTrace();
@@ -290,5 +298,31 @@ public class DBpediaFoodExtractor {
         out.close();
       }
     }
+  }
+
+  private String extractFrenchURI(String enURI) {
+    Document doc;
+    Elements sameAsElements;
+
+    String encodedENURI = URI.create(enURI).toASCIIString();
+
+    try {
+      doc = Jsoup.connect(encodedENURI).get();
+
+      sameAsElements =
+          doc.body().getElementsByAttributeValue("rel", "owl:sameAs");
+
+      for (Element element : sameAsElements) {
+        String sameAsUri = element.attr("href");
+
+        if (sameAsUri.contains("fr.dbpedia.org")) {
+          System.out.println("------->" + sameAsUri);
+          return sameAsUri;
+        }
+      }
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+    return null;
   }
 }
