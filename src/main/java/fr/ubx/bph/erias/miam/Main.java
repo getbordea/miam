@@ -15,8 +15,10 @@ public class Main {
   public static void main(String[] args) {
     DBpediaFoodExtractor dfe = new DBpediaFoodExtractor();
 
-    final String SEED = "http://dbpedia.org/page/Category:Foods";
+    //final String SEED = "http://dbpedia.org/page/Category:Foods";
+    final String SEED = "http://fr.dbpedia.org/page/Cat%C3%A9gorie:Aliment";
     //final String SEED = "http://dbpedia.org/page/Category:Popcorn";
+    //final String SEED = "http://dbpedia.org/page/Category:Apple_products";
     
     System.out.println("Extracting DBpedia subcategories for " + SEED);
 

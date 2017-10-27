@@ -6,6 +6,7 @@ package fr.ubx.bph.erias.miam.food;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.URI;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -25,26 +26,48 @@ public class DBpediaFoodExtractor {
 
   private static final String URI_OUTPUT_FILE = "output/dbPediaURIs.txt";
 
+  String DCT_PREFIX = "dct";
+  String DCT_PREFIX_FR = "dcterms";
+
   String[] STOP_WORDS = { "production", "people", "industry", "disease",
       "manufacturer", "companies", "company", "restaurant", "science",
-      "bakeries", "farming", "pubs_", "_pubs", "_bars", "bars_", "distilleries",
-      "distillery", "history", "films", "organisations", "breeds", "music",
-      "plantations", "refineries", "organizations", "fictional", "chains",
-      "cultivation", "cultivars", "regions", "crops", "breweries", "brewing",
-      "brewers", "wineries", "vineyards", "festivals", "viticultural",
-      "beer_by", "beer_in", "french_wine", "coats_of_arms", "founders",
-      "franchises", "chefs", "pizzerias", "media", "pet_food", "shops",
-      "parlors", "retailers", "cheesemakers", "characters", "food_truck",
-      "episodes", "ice_cream_vans", "orchardists", "economy", "houses",
-      "pathogens", "geographical_indications", "studio", "trade", "standards",
-      "campaigns", "litigation", "player", "spots", "haze", "crisis", "scandal",
-      "popular_culture", "flour_mills", "criticism", "books", "list_of",
-      "lists_of", "brand", "producer", "video_game", "tv_series", "theory",
-      "logos" };
+      "bakeries", "farming", "pubs_", "_pubs", "distilleries", "distillery",
+      "history", "films", "organisations", "breeds", "music", "plantations",
+      "refineries", "organizations", "fictional", "chains", "cultivation_in",
+      "regions", "crops", "breweries", "brewing", "brewers", "wineries",
+      "vineyards", "festivals", "viticultural", "beer_by", "beer_in",
+      "french_wine", "coats_of_arms", "founders", "franchises", "chefs",
+      "pizzerias", "pet_food", "shops", "parlors", "retailers", "cheesemakers",
+      "characters", "food_truck", "episodes", "ice_cream_vans", "orchardists",
+      "economy", "houses", "pathogens", "geographical_indications", "studio",
+      "trade", "standards", "campaigns", "litigation", "player", "spots",
+      "haze", "crisis", "scandal", "popular_culture", "flour_mills",
+      "criticism", "books", "list_of", "lists_of", "brand", "producer",
+      "video_game", "tv_series", "theory", "logos" };
+
+  String[] STOP_WORDS_FR = { "court_métrage", "élevage", "viticulture",
+
+      "race_de", "donald_duck", "toponyme", "collaborateur", "production",
+      "personnes", "publication", "industrie", "maladie", "fabricant",
+      "dans_la_culture", "entreprises", "société", "restaurant", "science",
+      "boulangeries", "agriculture", "_pubs", "pubs_", "distilleries",
+      "distillerie", "histoire", "films", "musique", "plantations",
+      "raffineries", "organisations", "fictives", "chaînes", "culture dans",
+      "régions", "cultures", "brasseries", "brassage", "brasseurs", "caves",
+      "vignobles", "festivals", "viticoles", "blasons", "fondateurs",
+      "franchises", "chefs", "aliments pour animaux", "boutiques", "salons",
+      "détaillants", "fromagers", "personnages", "épisodes", "fourgons à glace",
+      "verger", "économie", "maisons", "pathogènes",
+      "indications géographiques", "commerce", "normes", "campagnes", "litiges",
+      "joueur", "brume", "crise", "scandale", "culture populaire", "moulins",
+      "books", "liste de", "listes de", "marque", "producteur", "jeu vidéo",
+      "séries télévisées", "théorie", "logos", "série" };
 
   String[] STOP_CATEGORIES =
       { "carnivory", "alcoholic_drink_brands", "cherry_blossom", "halophiles",
           "forages", "decorative_fruits_and_seeds" };
+
+  String[] STOP_CATEGORIES_FR = { "vinification" };
 
   String DBO = "http://dbpedia.org/ontology/";
 
@@ -57,6 +80,8 @@ public class DBpediaFoodExtractor {
   String[] LEAF_CATEGORIES = { "wine", "beer", "whisky", "whiskey", "rubus",
       "onions", "table_grape_varieties", "grape_varieties", "quails", "grouse",
       "geese", "swans", "ducks" };
+
+  String[] LEAF_CATEGORIES_FR = { "vin" };
 
   public Set<String> downloadNarrowerCategories(String seedPageURI,
       FileWriter fstream) throws IOException {
@@ -71,12 +96,14 @@ public class DBpediaFoodExtractor {
     String seedCategoryName =
         seedPageURI.substring(seedPageURI.lastIndexOf(':') + 1);
 
+    String encodedseedPageURI = URI.create(seedPageURI).toASCIIString();
+
     if (!isFilteredCategory(seedCategoryName)) {
       try {
 
         out = new BufferedWriter(fstream);
 
-        doc = Jsoup.connect(seedPageURI).get();
+        doc = Jsoup.connect(encodedseedPageURI).get();
         narrowerCategoryElements =
             doc.body().getElementsByAttributeValue("rev", "skos:broader");
 
@@ -103,8 +130,8 @@ public class DBpediaFoodExtractor {
           }
         }
 
-        subjectOfElements =
-            doc.body().getElementsByAttributeValue("rev", "dct:subject");
+        subjectOfElements = doc.body().getElementsByAttributeValue("rev",
+            DCT_PREFIX + ":subject");
 
         for (Element element : subjectOfElements) {
           // System.out.print(element.text() + " ");
@@ -195,7 +222,10 @@ public class DBpediaFoodExtractor {
 
   private boolean hasFilteredType(String dbpediaUrl) throws IOException {
     Elements typeElements;
-    Document doc = Jsoup.connect(dbpediaUrl).get();
+
+    String encodedURL = URI.create(dbpediaUrl).toASCIIString();
+
+    Document doc = Jsoup.connect(encodedURL).get();
     typeElements = doc.body().getElementsByAttributeValue("rel", "rdf:type");
 
     Boolean hasStopType = false;
