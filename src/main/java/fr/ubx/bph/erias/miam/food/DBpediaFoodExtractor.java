@@ -24,10 +24,9 @@ public class DBpediaFoodExtractor {
 
   private static final String OUTPUT_FILE = "output/dbPediaCategories.txt";
 
-  private static final String URI_OUTPUT_FILE = "output/dbPediaURIs.txt";
+  protected static final String URI_OUTPUT_FILE = "output/dbPediaURIs.txt";
 
   String DCT_PREFIX = "dct";
-  String DCT_PREFIX_FR = "dcterms";
 
   String[] STOP_WORDS = { "production", "people", "industry", "disease",
       "manufacturer", "companies", "company", "restaurant", "science",
@@ -45,29 +44,9 @@ public class DBpediaFoodExtractor {
       "criticism", "books", "list_of", "lists_of", "brand", "producer",
       "video_game", "tv_series", "theory", "logos" };
 
-  String[] STOP_WORDS_FR = { "court_métrage", "élevage", "viticulture",
-
-      "race_de", "donald_duck", "toponyme", "collaborateur", "production",
-      "personnes", "publication", "industrie", "maladie", "fabricant",
-      "dans_la_culture", "entreprises", "société", "restaurant", "science",
-      "boulangeries", "agriculture", "_pubs", "pubs_", "distilleries",
-      "distillerie", "histoire", "films", "musique", "plantations",
-      "raffineries", "organisations", "fictives", "chaînes", "culture dans",
-      "régions", "cultures", "brasseries", "brassage", "brasseurs", "caves",
-      "vignobles", "festivals", "viticoles", "blasons", "fondateurs",
-      "franchises", "chefs", "aliments pour animaux", "boutiques", "salons",
-      "détaillants", "fromagers", "personnages", "épisodes", "fourgons à glace",
-      "verger", "économie", "maisons", "pathogènes",
-      "indications géographiques", "commerce", "normes", "campagnes", "litiges",
-      "joueur", "brume", "crise", "scandale", "culture populaire", "moulins",
-      "books", "liste de", "listes de", "marque", "producteur", "jeu vidéo",
-      "séries télévisées", "théorie", "logos", "série" };
-
   String[] STOP_CATEGORIES =
       { "carnivory", "alcoholic_drink_brands", "cherry_blossom", "halophiles",
           "forages", "decorative_fruits_and_seeds" };
-
-  String[] STOP_CATEGORIES_FR = { "vinification" };
 
   String DBO = "http://dbpedia.org/ontology/";
 
@@ -80,8 +59,6 @@ public class DBpediaFoodExtractor {
   String[] LEAF_CATEGORIES = { "wine", "beer", "whisky", "whiskey", "rubus",
       "onions", "table_grape_varieties", "grape_varieties", "quails", "grouse",
       "geese", "swans", "ducks" };
-
-  String[] LEAF_CATEGORIES_FR = { "vin" };
 
   public Set<String> downloadNarrowerCategories(String seedPageURI,
       FileWriter fstream) throws IOException {
