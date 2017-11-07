@@ -316,7 +316,7 @@ public class DBpediaFoodExtractor {
         String sameAsUri = element.attr("href");
 
         if (sameAsUri.contains("fr.dbpedia.org")) {
-          System.out.println("------->" + sameAsUri);
+          System.out.println("Found the French URI: " + sameAsUri);
           return sameAsUri;
         }
       }
