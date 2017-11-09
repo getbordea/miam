@@ -26,9 +26,9 @@ public class DBpediaFoodExtractor {
 
   protected static final String URI_OUTPUT_FILE = "output/dbPediaURIs.txt";
 
-  String DCT_PREFIX = "dct";
+  public final String DCT_PREFIX = "dct";
 
-  String[] STOP_WORDS = { "production", "people", "industry", "disease",
+  public String[] STOP_WORDS = { "production", "people", "industry", "disease",
       "manufacturer", "companies", "company", "restaurant", "science",
       "bakeries", "farming", "pubs_", "_pubs", "distilleries", "distillery",
       "history", "films", "organisations", "breeds", "music", "plantations",
@@ -44,7 +44,7 @@ public class DBpediaFoodExtractor {
       "criticism", "books", "list_of", "lists_of", "brand", "producer",
       "video_game", "tv_series", "theory", "logos" };
 
-  String[] STOP_CATEGORIES =
+  public String[] STOP_CATEGORIES =
       { "carnivory", "alcoholic_drink_brands", "cherry_blossom", "halophiles",
           "forages", "decorative_fruits_and_seeds" };
 
@@ -56,12 +56,13 @@ public class DBpediaFoodExtractor {
 
   String[] KEEP_RDF_TYPES = { DBO + "Food", DBO + "Beverage" };
 
-  String[] LEAF_CATEGORIES = { "wine", "beer", "whisky", "whiskey", "rubus",
+  public String[] LEAF_CATEGORIES = { "wine", "beer", "whisky", "whiskey", "rubus",
       "onions", "table_grape_varieties", "grape_varieties", "quails", "grouse",
       "geese", "swans", "ducks" };
 
-  public Set<String> downloadNarrowerCategories(String seedPageURI,
-      FileWriter fstream) throws IOException {
+  public Set<String> downloadNarrowerCategories(String dctPrefix,
+      String seedPageURI, FileWriter fstream, String[] stopwords,
+      String[] stopCategories) throws IOException {
     Document doc;
     Elements narrowerCategoryElements;
     Elements subjectOfElements;
@@ -75,7 +76,7 @@ public class DBpediaFoodExtractor {
 
     String encodedseedPageURI = URI.create(seedPageURI).toASCIIString();
 
-    if (!isFilteredCategory(seedCategoryName)) {
+    if (!isFilteredCategory(seedCategoryName, stopwords, stopCategories)) {
       try {
 
         out = new BufferedWriter(fstream);
@@ -92,7 +93,7 @@ public class DBpediaFoodExtractor {
           String categoryName =
               categoryURL.substring(categoryURL.lastIndexOf(':') + 1);
 
-          if (!isFilteredCategory(categoryURL)
+          if (!isFilteredCategory(categoryURL, stopwords, stopCategories)
               && !hasFilteredType(categoryURL)) {
 
             out.write("  \"Category:" + seedCategoryName + "\"" + " -> "
@@ -108,7 +109,7 @@ public class DBpediaFoodExtractor {
         }
 
         subjectOfElements = doc.body().getElementsByAttributeValue("rev",
-            DCT_PREFIX + ":subject");
+            dctPrefix + ":subject");
 
         for (Element element : subjectOfElements) {
           // System.out.print(element.text() + " ");
@@ -117,7 +118,8 @@ public class DBpediaFoodExtractor {
           String elementName =
               elementURL.substring(elementURL.lastIndexOf('/') + 1);
 
-          if (!isFilteredCategory(elementURL) && !hasFilteredType(elementURL)) {
+          if (!isFilteredCategory(elementURL, stopwords, stopCategories)
+              && !hasFilteredType(elementURL)) {
             out.write("  \"Category:" + seedCategoryName + "\"" + " -> " + "\""
                 + elementName + "\";" + System.lineSeparator());
 
@@ -142,8 +144,9 @@ public class DBpediaFoodExtractor {
     return categoryURLSet;
   }
 
-  public Set<String> recursiveDownloadNarrowerCategories(String seedPageURI,
-      Set<String> allCategories) {
+  public Set<String> recursiveDownloadNarrowerCategories(String dctPrefix,
+      String seedPageURI, Set<String> allCategories, String[] stopwords,
+      String[] stopCategories, String[] leafCategories) {
 
     FileWriter fstream;
 
@@ -152,7 +155,8 @@ public class DBpediaFoodExtractor {
 
       fstream = new FileWriter(OUTPUT_FILE, true);
 
-      narrowerCategories = downloadNarrowerCategories(seedPageURI, fstream);
+      narrowerCategories = downloadNarrowerCategories(dctPrefix, seedPageURI,
+          fstream, stopwords, stopCategories);
       for (String dbPediaConceptURI : narrowerCategories) {
 
         String categoryName =
@@ -163,15 +167,15 @@ public class DBpediaFoodExtractor {
               categoryName.substring(categoryName.lastIndexOf(':') + 1);
         }
 
-        if (isFilteredCategory(categoryName)) {
+        if (isFilteredCategory(categoryName, stopwords, stopCategories)) {
           System.out.println("Ignoring stop category " + categoryName);
         } else {
           if (!allCategories.contains(dbPediaConceptURI)) {
             allCategories.add(dbPediaConceptURI);
 
-            if (!isLeafCategory(dbPediaConceptURI)) {
-              recursiveDownloadNarrowerCategories(dbPediaConceptURI,
-                  allCategories);
+            if (!isLeafCategory(dbPediaConceptURI, leafCategories)) {
+              recursiveDownloadNarrowerCategories(dctPrefix, dbPediaConceptURI,
+                  allCategories, stopwords, stopCategories, leafCategories);
             }
           }
         }
@@ -183,14 +187,15 @@ public class DBpediaFoodExtractor {
     return allCategories;
   }
 
-  private boolean isLeafCategory(String dbPediaConceptURI) {
+  private boolean isLeafCategory(String dbPediaConceptURI,
+      String[] leafCategories) {
 
     String categoryName =
         dbPediaConceptURI.substring(dbPediaConceptURI.lastIndexOf(':') + 1);
 
     categoryName = categoryName.toLowerCase();
 
-    if (Arrays.asList(LEAF_CATEGORIES).contains(categoryName)) {
+    if (Arrays.asList(leafCategories).contains(categoryName)) {
       return true;
     }
 
@@ -227,18 +232,19 @@ public class DBpediaFoodExtractor {
     }
   }
 
-  private boolean isFilteredCategory(String dbPediaConceptURI) {
+  private boolean isFilteredCategory(String dbPediaConceptURI,
+      String[] stopwords, String[] stopCategories) {
 
     String categoryName =
         dbPediaConceptURI.substring(dbPediaConceptURI.lastIndexOf(':') + 1);
 
     categoryName = categoryName.toLowerCase();
 
-    if (Arrays.asList(STOP_CATEGORIES).contains(categoryName)) {
+    if (Arrays.asList(stopCategories).contains(categoryName)) {
       return true;
     }
 
-    for (String stopword : STOP_WORDS) {
+    for (String stopword : stopwords) {
       if (categoryName.contains(stopword)) {
         return true;
       }

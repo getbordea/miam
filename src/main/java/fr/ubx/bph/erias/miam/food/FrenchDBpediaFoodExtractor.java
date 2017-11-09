@@ -20,31 +20,31 @@ import org.jsoup.select.Elements;
  */
 public class FrenchDBpediaFoodExtractor extends DBpediaFoodExtractor {
 
-  String DCT_PREFIX = "dcterms";
+  public final String DCT_PREFIX = "dcterms";
 
-  String[] STOP_WORDS = { "fiction", "personnalité", "famille", "pâtissier",
-      "filiale", "entreprise", "chocolaterie", "fabrication", "musée",
-      "ravageur", "chocolatier", "court_métrage", "élevage", "viticulture",
-      "race_de", "donald_duck", "toponyme", "collaborateur", "production",
-      "personnes", "publication", "industrie", "maladie", "fabricant",
-      "dans_la_culture", "entreprises", "société", "restaurant", "science",
-      "boulangeries", "agriculture", "_pubs", "pubs_", "distilleries",
-      "distillerie", "histoire", "films", "musique", "plantations",
-      "raffineries", "organisations", "fictives", "chaînes", "culture dans",
-      "régions", "cultures", "brasseries", "brassage", "brasseurs", "caves",
-      "vignobles", "festivals", "viticoles", "blasons", "fondateurs",
-      "franchises", "chefs", "aliments pour animaux", "boutiques", "salons",
-      "détaillants", "fromagers", "personnages", "épisodes", "fourgons à glace",
-      "verger", "économie", "maisons", "pathogènes",
+  public String[] STOP_WORDS = { "variétés", "fiction", "personnalité",
+      "famille", "pâtissier", "filiale", "entreprise", "chocolaterie",
+      "fabrication", "musée", "ravageur", "chocolatier", "court_métrage",
+      "élevage", "viticulture", "race_d", "donald_duck", "toponyme",
+      "collaborateur", "production", "personnes", "publication", "industrie",
+      "maladie", "fabricant", "dans_la_culture", "entreprises", "société",
+      "restaurant", "science", "boulangeries", "agriculture", "_pubs", "pubs_",
+      "distilleries", "distillerie", "histoire", "film", "films", "musique",
+      "plantations", "raffineries", "organisations", "fictives", "chaînes",
+      "culture dans", "régions", "cultures", "brasseries", "brassage",
+      "brasseurs", "caves", "vignobles", "festivals", "viticoles", "blasons",
+      "fondateurs", "franchises", "chefs", "aliments pour animaux", "boutiques",
+      "salons", "détaillants", "fromagers", "personnages", "épisodes",
+      "fourgons à glace", "verger", "économie", "maisons", "pathogènes",
       "indications géographiques", "commerce", "normes", "campagnes", "litiges",
       "joueur", "brume", "crise", "scandale", "culture populaire", "moulins",
       "books", "liste de", "listes de", "marque", "producteur", "jeu vidéo",
       "séries télévisées", "théorie", "logos", "série" };
 
-  String[] STOP_CATEGORIES = { "vinification" };
+  public String[] STOP_CATEGORIES = { "vinification" };
 
-  String[] LEAF_CATEGORIES_FR = { "vin" };
-  
+  public String[] LEAF_CATEGORIES_FR = { "vin" };
+
   public void printURIsToFile(Set<String> uriSet) throws IOException {
     FileWriter fstream;
 
@@ -76,7 +76,6 @@ public class FrenchDBpediaFoodExtractor extends DBpediaFoodExtractor {
     }
   }
 
-  
   private String extractEnglishURI(String enURI) {
     Document doc;
     Elements sameAsElements;
