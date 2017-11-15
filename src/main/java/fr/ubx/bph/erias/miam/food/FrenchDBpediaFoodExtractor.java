@@ -43,7 +43,7 @@ public class FrenchDBpediaFoodExtractor extends DBpediaFoodExtractor {
 
   public String[] STOP_CATEGORIES = { "vinification" };
 
-  public String[] LEAF_CATEGORIES_FR = { "vin" };
+  public String[] LEAF_CATEGORIES = { "vin" };
 
   public void printURIsToFile(Set<String> uriSet) throws IOException {
     FileWriter fstream;
