@@ -15,14 +15,16 @@ public class Main {
   public static void main(String[] args) {
     // DBpediaFoodExtractor de = new DBpediaFoodExtractor();
     // FrenchDBpediaFoodExtractor de = new FrenchDBpediaFoodExtractor();
-    EnglishDBpediaDrugExtractor de = new EnglishDBpediaDrugExtractor();
-
+    // EnglishDBpediaDrugExtractor de = new EnglishDBpediaDrugExtractor();
+    EnglishDBpediaFoodExtractor de = new EnglishDBpediaFoodExtractor();
+    
     // final String SEED = "http://dbpedia.org/page/Category:Foods";
-    final String SEED = "http://dbpedia.org/page/Category:Drugs";
+    // final String SEED = "http://dbpedia.org/page/Category:Drugs";
     // final String SEED = "http://fr.dbpedia.org/page/Cat%C3%A9gorie:Aliment";
     // final String SEED = "http://fr.dbpedia.org/resource/Catégorie:Épice";
-    // final String SEED = "http://dbpedia.org/page/Category:Popcorn";
+    final String SEED = "http://dbpedia.org/page/Category:Popcorn";
     // final String SEED = "http://dbpedia.org/page/Category:Apple_products";
+    //final String SEED = "http://dbpedia.org/page/Category:Spices";
 
     System.out.println("Extracting DBpedia subcategories for " + SEED);
 

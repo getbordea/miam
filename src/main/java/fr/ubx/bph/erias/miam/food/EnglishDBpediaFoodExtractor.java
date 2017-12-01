@@ -38,7 +38,7 @@ public class EnglishDBpediaFoodExtractor extends DBpediaFoodExtractor {
       "trade", "standards", "campaigns", "litigation", "player", "spots",
       "haze", "crisis", "scandal", "popular_culture", "flour_mills",
       "criticism", "books", "list_of", "lists_of", "brand", "producer",
-      "video_game", "tv_series", "theory", "logos"};
+      "video_game", "tv_series", "theory", "logos", "challenge"};
 
   public String[] STOP_CATEGORIES =
       { "carnivory", "alcoholic_drink_brands", "cherry_blossom", "halophiles",
