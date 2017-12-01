@@ -67,7 +67,7 @@ public class DBpediaCategoryExtractor {
                 && !hasFilteredType(categoryURL, stopRDFTypes, keepRDFTypes)) {
 
               out.write("  \"Category:" + seedCategoryName + "\"" + " -> "
-                  + "\"Category:" + categoryName + "\";"
+                  + "\"Category:" + categoryName + "\" [weight=0.0];"
                   + System.lineSeparator());
 
               System.out.println(seedCategoryName + " " + categoryName);
@@ -91,7 +91,7 @@ public class DBpediaCategoryExtractor {
             if (!isFilteredCategory(elementURL, stopwords, stopCategories)
                 && !hasFilteredType(elementURL, stopRDFTypes, keepRDFTypes)) {
               out.write("  \"Category:" + seedCategoryName + "\"" + " -> "
-                  + "\"" + elementName + "\";" + System.lineSeparator());
+                  + "\"" + elementName + "\" [weight=0.0];" + System.lineSeparator());
 
               categoryURLSet.add(elementURL);
 
