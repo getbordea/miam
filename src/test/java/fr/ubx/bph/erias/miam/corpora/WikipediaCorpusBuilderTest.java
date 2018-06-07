@@ -5,6 +5,8 @@ package fr.ubx.bph.erias.miam.corpora;
 
 import static org.junit.Assert.*;
 
+import org.apache.log4j.PropertyConfigurator;
+import org.junit.Before;
 import org.junit.Test;
 
 /**
@@ -14,6 +16,14 @@ import org.junit.Test;
 public class WikipediaCorpusBuilderTest extends WikipediaCorpusBuilder {
 
   WikipediaCorpusBuilder wcb = new WikipediaCorpusBuilder();
+  
+  /**
+   * @throws java.lang.Exception
+   */
+  @Before
+  public void setUp() throws Exception {
+    PropertyConfigurator.configure("src/main/config/log.properties");
+  }
 
   @Test
   public void testContainsSection() {

@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 import java.util.Set;
 
 import org.jsoup.nodes.Document;
@@ -26,8 +27,9 @@ import fr.ubx.bph.erias.miam.utils.WebUtils;
  */
 public class PubmedCorpusBuilder {
 
-  private static final String PUBMED_URL =
-      "https://www.ncbi.nlm.nih.gov/pubmed";
+  public static final String PUBMED_URL =
+      //"https://www.ncbi.nlm.nih.gov/pubmed";
+      "https://www.ncbi.nlm.nih.gov/pubmed/?term=";
 
   // TODO parse references file
   // find PMID by title and date
@@ -165,7 +167,7 @@ public class PubmedCorpusBuilder {
 
         while ((line = input.readLine()) != null) {
 
-          // System.out.println("Parsing reference: " + line);
+          System.out.println("Parsing reference: " + line);
 
           String[] citationFields = line.split("\\. |\\? ");
 
@@ -176,6 +178,14 @@ public class PubmedCorpusBuilder {
             // title = title + venue;
 
             venue = citationFields[3];
+          } else if (!venue.contains("(")) {
+            // title = title + venue;
+
+            venue = citationFields[4];
+          } else if (!venue.contains("(")) {
+            // title = title + venue;
+
+            venue = citationFields[5];
           }
 
           String year =
@@ -253,8 +263,9 @@ public class PubmedCorpusBuilder {
   }
 
   public List<String> collectMeshTerms(String pmid) {
-    String pubmedPmidURL = PUBMED_URL + "/" + pmid;
-
+    //String pubmedPmidURL = PUBMED_URL + "/" + pmid;
+    String pubmedPmidURL = PUBMED_URL + pmid;
+    
     List<String> meshTerms = new ArrayList<String>();
 
     Document doc = WebUtils.connectWith3Timeouts(pubmedPmidURL);
@@ -280,7 +291,7 @@ public class PubmedCorpusBuilder {
 
     try {
       BufferedReader input = new BufferedReader(new FileReader(pmidsFilePath));
-      fstream = new FileWriter(outputFilePath, true);
+      fstream = new FileWriter(outputFilePath, false);
 
       out = new BufferedWriter(fstream);
 
@@ -294,20 +305,70 @@ public class PubmedCorpusBuilder {
 
           for (String meshTerm : meshTerms) {
             meshTerm = meshTerm.trim();
-            meshTermsString = meshTermsString + meshTerm + ",";
+            meshTermsString = meshTermsString + meshTerm + ";";
           }
 
           String output = line;
 
           if (meshTermsString != "") {
-            output = output + ","
+            output = output + ";"
                 + meshTermsString.substring(0, meshTermsString.length() - 1);
           }
-          
+
           out.write(output + System.lineSeparator());
 
           System.out.println(output);
         }
+      } finally {
+        input.close();
+        out.close();
+      }
+    } catch (IOException ex) {
+      ex.printStackTrace();
+    }
+  }
+
+  public void generateRandomPMIDs(Integer maxPMID, String pmidsFilePath,
+      String outputFilePath, Integer morePMIDs) {
+
+    BufferedWriter out = null;
+    FileWriter fstream;
+
+    List<Integer> pmids = new ArrayList<Integer>();
+
+    try {
+      BufferedReader input = new BufferedReader(new FileReader(pmidsFilePath));
+      fstream = new FileWriter(outputFilePath, false);
+
+      out = new BufferedWriter(fstream);
+
+      try {
+        String line = null;
+
+        while ((line = input.readLine()) != null) {
+          pmids.add(Integer.parseInt(line));
+        }
+
+        List<Integer> randomPMIDs = new ArrayList<Integer>();
+
+        Random rand = new Random();
+
+        Integer i = 1;
+
+        while (i <= pmids.size() + morePMIDs) {
+
+          int n = rand.nextInt(maxPMID) + 1;
+
+          if (!pmids.contains(n) && !randomPMIDs.contains(n)) {
+            randomPMIDs.add(n);
+            i++;
+          }
+        }
+
+        for (Integer j : randomPMIDs) {
+          out.write(j + System.lineSeparator());
+        }
+
       } finally {
         input.close();
         out.close();
