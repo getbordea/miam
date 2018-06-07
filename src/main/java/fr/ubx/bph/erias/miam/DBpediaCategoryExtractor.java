@@ -17,6 +17,8 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import fr.ubx.bph.erias.miam.utils.WebUtils;
+
 /**
  * @author Georgeta Bordea
  *
@@ -49,7 +51,7 @@ public class DBpediaCategoryExtractor {
 
         out = new BufferedWriter(fstream);
 
-        doc = connectWith3Timeouts(seedPageURI);
+        doc = WebUtils.connectWith3Timeouts(seedPageURI);
 
         if (doc != null) {
           narrowerCategoryElements =
@@ -178,7 +180,7 @@ public class DBpediaCategoryExtractor {
       String[] keepRDFTypes) throws IOException {
     Elements typeElements;
 
-    Document doc = connectWith3Timeouts(dbpediaUrl);
+    Document doc = WebUtils.connectWith3Timeouts(dbpediaUrl);
 
     if (doc != null) {
       typeElements = doc.body().getElementsByAttributeValue("rel", "rdf:type");
@@ -263,7 +265,7 @@ public class DBpediaCategoryExtractor {
     Document doc;
     Elements sameAsElements;
 
-    doc = connectWith3Timeouts(enURI);
+    doc = WebUtils.connectWith3Timeouts(enURI);
 
     if (doc != null) {
       sameAsElements =
@@ -280,27 +282,5 @@ public class DBpediaCategoryExtractor {
     }
 
     return null;
-  }
-
-  public Document connectWith3Timeouts(String url) {
-
-    String encodedURI = URI.create(url).toASCIIString();
-
-    Document doc = null;
-
-    try {
-      for (int i = 1; i <= 3; i++) {
-        try {
-          doc = Jsoup.connect(encodedURI).timeout(5000).get();
-          break; // Break immediately if successful
-        } catch (SocketTimeoutException e) {
-          // Swallow exception and try again
-          System.out.println("jsoup Timeout occurred " + i + " time(s)");
-        }
-      }
-    } catch (IOException e) {
-      e.printStackTrace();
-    }
-    return doc;
   }
 }

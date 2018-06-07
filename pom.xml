@@ -29,15 +29,30 @@
     </dependency>
     <dependency>
 	  <groupId>org.jgrapht</groupId>
-	  <artifactId>jgrapht-jdk1.5</artifactId>
-	  <version>0.7.3</version>
+	  <artifactId>jgrapht-core</artifactId>
+	  <version>1.1.0</version>
     </dependency> 
+    <dependency>
+      <groupId>org.jgrapht</groupId>
+      <artifactId>jgrapht-ext</artifactId>
+      <version>1.1.0</version>
+    </dependency>
     <dependency>
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>
       <version>1.2.12</version>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>nz.ac.waikato.cms.weka</groupId>
+      <artifactId>weka-stable</artifactId>
+      <version>3.6.7</version>
+    </dependency>
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.38</version>
+    </dependency> 
     
     <!-- START - Lucene Dependencies -->
     <dependency>
