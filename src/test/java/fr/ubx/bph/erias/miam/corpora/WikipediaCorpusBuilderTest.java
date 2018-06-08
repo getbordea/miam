@@ -5,7 +5,6 @@ package fr.ubx.bph.erias.miam.corpora;
 
 import static org.junit.Assert.*;
 
-import org.apache.log4j.PropertyConfigurator;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -48,6 +48,11 @@
       <artifactId>weka-stable</artifactId>
       <version>3.6.7</version>
     </dependency>
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.38</version>
+    </dependency> 
     
     <!-- START - Lucene Dependencies -->
     <dependency>
@@ -70,12 +75,6 @@
       <artifactId>lucene-backward-codecs</artifactId>
       <version>5.3.1</version>
     </dependency>
-    <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>5.1.38</version>
-	  </dependency> 
-
     <!-- END - Lucene Dependencies -->
   </dependencies>
   
