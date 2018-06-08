@@ -15,6 +15,7 @@ import org.jgrapht.graph.DefaultWeightedEdge;
 import org.jgrapht.io.DOTExporter;
 import org.jgrapht.io.StringComponentNameProvider;
 
+
 /**
  * @author Georgeta Bordea
  * 
@@ -76,6 +77,7 @@ public class JGraphTRepresentation {
       FileWriter w = new FileWriter(fileName);
       // de.export(w, graph, sumPMIMap);
       de.exportGraph(graph, w);
+
 
       w.close();
     } catch (IOException e) {

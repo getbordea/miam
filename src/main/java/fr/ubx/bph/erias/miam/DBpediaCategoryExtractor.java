@@ -53,6 +53,7 @@ public class DBpediaCategoryExtractor {
 
         doc = WebUtils.connectWith3Timeouts(seedPageURI);
 
+
         if (doc != null) {
           narrowerCategoryElements =
               doc.body().getElementsByAttributeValue("rev", "skos:broader");
@@ -282,5 +283,28 @@ public class DBpediaCategoryExtractor {
     }
 
     return null;
+  }
+
+
+  public Document connectWith3Timeouts(String url) {
+
+    String encodedURI = URI.create(url).toASCIIString();
+
+    Document doc = null;
+
+    try {
+      for (int i = 1; i <= 3; i++) {
+        try {
+          doc = Jsoup.connect(encodedURI).timeout(5000).get();
+          break; // Break immediately if successful
+        } catch (SocketTimeoutException e) {
+          // Swallow exception and try again
+          System.out.println("jsoup Timeout occurred " + i + " time(s)");
+        }
+      }
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+    return doc;
   }
 }

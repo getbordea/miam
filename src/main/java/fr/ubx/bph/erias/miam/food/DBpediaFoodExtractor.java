@@ -15,5 +15,6 @@ public class DBpediaFoodExtractor extends DBpediaCategoryExtractor{
       DBO + "Organisation", DBO + "Book", DBO + "Place", DBO + "Software",
       DBO + "Location", DBO + "Building", DBO + "Restaurant" };
 
+
   public String[] KEEP_RDF_TYPES = { DBO + "Food", DBO + "Beverage" };
 }
