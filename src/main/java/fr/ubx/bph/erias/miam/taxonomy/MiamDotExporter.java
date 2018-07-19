@@ -15,9 +15,9 @@ import java.util.Map;
 import org.apache.log4j.Logger;
 import org.jgrapht.DirectedGraph;
 import org.jgrapht.Graph;
-import org.jgrapht.ext.EdgeNameProvider;
-import org.jgrapht.ext.StringNameProvider;
-import org.jgrapht.ext.VertexNameProvider;
+//import org.jgrapht.ext.EdgeNameProvider;
+//import org.jgrapht.ext.StringNameProvider;
+//import org.jgrapht.ext.VertexNameProvider;
 
 /**
  * Exports a graph into a DOT file.
@@ -30,10 +30,13 @@ import org.jgrapht.ext.VertexNameProvider;
  * 
  * @author Trevor Harmon
  */
+
 public class MiamDotExporter<V, E> {
 
+  //TODO find a more recent implementation or change version
+  
   static Logger logger = Logger.getLogger(MiamDotExporter.class.getName());
-
+  /*
   // ~ Instance fields --------------------------------------------------------
 
   private VertexNameProvider<V> vertexIDProvider;
@@ -46,7 +49,7 @@ public class MiamDotExporter<V, E> {
    * Constructs a new DOTExporter object with an integer name provider for the
    * vertex IDs and null providers for the vertex and edge labels.
    */
-  public MiamDotExporter() {
+/*  public MiamDotExporter() {
     this(new StringNameProvider<V>(), null, null);
   }
 
@@ -62,7 +65,7 @@ public class MiamDotExporter<V, E> {
    *          for generating edge labels. If null, edge labels will not be
    *          written to the file.
    */
-  public MiamDotExporter(VertexNameProvider<V> vertexIDProvider,
+/*  public MiamDotExporter(VertexNameProvider<V> vertexIDProvider,
       VertexNameProvider<V> vertexLabelProvider,
       EdgeNameProvider<E> edgeLabelProvider) {
     this.vertexIDProvider = vertexIDProvider;
@@ -80,6 +83,8 @@ public class MiamDotExporter<V, E> {
    * @param g
    *          the graph to be exported
    */
+
+/*
   public void export(Writer writer, Graph<V, E> g, Map<String, Double> sumPMIMap) {
     PrintWriter out = new PrintWriter(writer);
     String indent = "  ";
@@ -136,7 +141,8 @@ public class MiamDotExporter<V, E> {
     out.println("}");
 
     out.flush();
-  }
+  }*/
 }
+
 
 // End DOTExporter.java

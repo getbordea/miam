@@ -38,6 +38,8 @@ import org.apache.lucene.search.spans.SpanTermQuery;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
 
+import fr.ubx.bph.erias.miam.utils.DocumentUtils;
+
 /**
  * @author Georgeta Bordea
  * 
@@ -319,7 +321,9 @@ public class SearchDocuments {
 
   public Integer searchOverallOccurrence(String topic, Integer docsNo)
       throws CorruptIndexException, IOException {
-    Map<String, Integer> occMap = searchOccurrence(topic, docsNo);
+    // Map<String, Integer> occMap = searchOccurrence(topic, docsNo);
+    Map<String, Integer> occMap = searchOccurrence(topic, docsNo, DocumentUtils
+        .readWordsFromFileInSet("src/main/resources/stopwords.txt"));
 
     Set<String> keySet = occMap.keySet();
 
