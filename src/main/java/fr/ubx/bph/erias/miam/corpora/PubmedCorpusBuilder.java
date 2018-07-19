@@ -15,6 +15,8 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Set;
 
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -27,8 +29,11 @@ import fr.ubx.bph.erias.miam.utils.WebUtils;
  */
 public class PubmedCorpusBuilder {
 
+  private static Logger logger =
+      Logger.getLogger(PubmedCorpusBuilder.class.getName());
+
   public static final String PUBMED_URL =
-      //"https://www.ncbi.nlm.nih.gov/pubmed";
+      // "https://www.ncbi.nlm.nih.gov/pubmed";
       "https://www.ncbi.nlm.nih.gov/pubmed/?term=";
 
   // TODO parse references file
@@ -263,9 +268,9 @@ public class PubmedCorpusBuilder {
   }
 
   public List<String> collectMeshTerms(String pmid) {
-    //String pubmedPmidURL = PUBMED_URL + "/" + pmid;
+    // String pubmedPmidURL = PUBMED_URL + "/" + pmid;
     String pubmedPmidURL = PUBMED_URL + pmid;
-    
+
     List<String> meshTerms = new ArrayList<String>();
 
     Document doc = WebUtils.connectWith3Timeouts(pubmedPmidURL);
@@ -376,5 +381,100 @@ public class PubmedCorpusBuilder {
     } catch (IOException ex) {
       ex.printStackTrace();
     }
+  }
+
+  public void downloadAbstracts(String pmidsFilePath, String outputDirectory) {
+
+    FileWriter fstream;
+
+    try {
+      BufferedReader input = new BufferedReader(new FileReader(pmidsFilePath));
+
+      try {
+        String line = null;
+
+        while ((line = input.readLine()) != null) {
+          String pmid = line;
+
+          logger.log(Level.INFO, "Downloading abstract for PMID " + pmid);
+
+          BufferedWriter out = null;
+          fstream = new FileWriter(outputDirectory + pmid + ".txt", false);
+
+          try {
+            out = new BufferedWriter(fstream);
+
+            String abstractText = downloadAbstract(pmid);
+
+            out.write(abstractText);
+
+          } finally {
+            out.close();
+          }
+        }
+      } finally {
+        input.close();
+      }
+    } catch (IOException ex) {
+      ex.printStackTrace();
+    }
+  }
+
+  private String downloadAbstract(String pmid) {
+
+    String pubmedPmidURL = PUBMED_URL + pmid;
+
+    String abstractText = "";
+
+    Document doc = WebUtils.connectWith3Timeouts(pubmedPmidURL);
+
+    Elements elements;
+
+    if (doc != null) {
+      elements = doc.getElementsByAttributeValueContaining("class", "abstr");
+
+      for (int i = 0; i < elements.size() - 1; i++) {
+
+        Element element = elements.get(i);
+        abstractText = abstractText + getTextRecursively(element);
+      }
+
+      // Elements childElements = element.children();
+      // for (Element childElement : childElements) {
+      // abstractText =
+      // abstractText + childElement.text() + System.lineSeparator();
+      // }
+    }
+
+    return cleanText(abstractText);
+  }
+
+  private String getTextRecursively(Element element) {
+
+    String text = "";
+
+    if (element.ownText() != "") {
+      text = element.ownText();
+    }
+
+    Elements childElements = element.children();
+
+    for (Element childElement : childElements) {
+      text = text + System.lineSeparator() + getTextRecursively(childElement);
+    }
+
+    return text;
+  }
+
+  private String cleanText(String abstractText) {
+
+    String linkoutString = "LinkOut - more resources";
+
+    if (abstractText.contains(linkoutString)) {
+      abstractText =
+          abstractText.substring(0, abstractText.indexOf(linkoutString));
+    }
+
+    return abstractText;
   }
 }

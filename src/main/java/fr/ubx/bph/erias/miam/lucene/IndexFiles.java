@@ -10,6 +10,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
+import org.apache.lucene.document.Document;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
 import org.apache.lucene.store.FSDirectory;
@@ -51,7 +52,7 @@ public class IndexFiles {
       }
     } catch (IOException ioex) {
       logger.log(Level.FATAL, ioex.getMessage());
-      logger.log(Level.FATAL, "problem creating the lucene index..");
+      logger.log(Level.FATAL, "Problem creating the lucene index..");
       System.exit(1);
     }
 
@@ -65,16 +66,14 @@ public class IndexFiles {
 
     Analyzer analyzer = new StandardAnalyzer();
     IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
-    
+
     IndexWriter writer = null;
     try {
-      writer =
-          new IndexWriter(FSDirectory.open(indexFile.toPath()),
-              iwc);
+      writer = new IndexWriter(FSDirectory.open(indexFile.toPath()), iwc);
 
     } catch (IOException e) {
-      logger.log(Level.FATAL, " caught a " + e.getClass() + "\n with message: "
-          + e.getMessage());
+      logger.log(Level.FATAL,
+          " caught a " + e.getClass() + "\n with message: " + e.getMessage());
     }
 
     return writer;
@@ -93,31 +92,33 @@ public class IndexFiles {
     IndexWriter writer = null;
     Analyzer analyzer = new StandardAnalyzer();
     IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
-    
+
     try {
-      writer =
-          new IndexWriter(FSDirectory.open(indexFile.toPath()),
-              iwc);
+      writer = new IndexWriter(FSDirectory.open(indexFile.toPath()), iwc);
 
     } catch (IOException e) {
-      logger.log(Level.FATAL, " caught a " + e.getClass() + "\n with message: "
-          + e.getMessage());
+      logger.log(Level.FATAL,
+          " caught a " + e.getClass() + "\n with message: " + e.getMessage());
     }
 
     return writer;
   }
 
-  public static void indexDoc(IndexWriter writer, String uid, String content,
+  public static void indexDoc(IndexWriter writer, String uid, String filePath,
       Integer year) {
-    logger.log(Level.INFO, "adding document " + uid + " to index..");
+    logger.log(Level.INFO, "Adding document " + uid + " to index..");
 
     try {
       if (uid != null) {
-        writer.addDocument(LuceneDocument.Document(uid, content, year));
+        
+        Document document = LuceneDocument.Document(uid,
+            DocumentUtils.readFile(filePath), year);
+        
+        writer.addDocument(document);
       }
     } catch (Exception e) {
-      logger.log(Level.FATAL, " caught a " + e.getClass() + "\n with message: "
-          + e.getMessage());
+      logger.log(Level.FATAL,
+          " caught a " + e.getClass() + "\n with message: " + e.getMessage());
     }
   }
 }
