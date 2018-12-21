@@ -1,0 +1,2768 @@
+DNA,0.007194244604316547
+Antibodies,0.00819672131147541
+Mice,0.010482180293501049
+Receptors,0.011494252873563218
+Retrospective Studies,0.013986013986013986
+Disease Models,0.016129032258064516
+Infant,0.016181229773462782
+Cattle,0.01639344262295082
+Polymorphism,0.01639344262295082
+Magnetic Resonance Imaging,0.01818181818181818
+Case-Control Studies,0.01818181818181818
+Arthritis,0.018518518518518517
+Risk Factors,0.018518518518518517
+Temperature,0.02
+Pregnancy,0.02040816326530612
+Tomography,0.020833333333333332
+Combined Modality Therapy,0.02127659574468085
+Models,0.022813688212927757
+Severity of Illness Index,0.023809523809523808
+RNA,0.02512562814070352
+Binding Sites,0.02564102564102564
+Child,0.026923076923076925
+United States,0.029940119760479042
+Diagnosis,0.030927835051546393
+Rabbits,0.03125
+Databases,0.03125
+Electrophoresis,0.034482758620689655
+Risk Assessment,0.037037037037037035
+Longitudinal Studies,0.037037037037037035
+Diabetes Mellitus,0.0375
+Pregnancy Complications,0.038461538461538464
+Follow-Up Studies,0.038461538461538464
+Risk,0.04
+Muscle,0.0410958904109589
+Sensitivity and Specificity,0.04225352112676056
+Algorithms,0.045454545454545456
+Animals,0.04581818181818182
+Evoked Potentials,0.047619047619047616
+Swine,0.04878048780487805
+Blotting,0.04918032786885246
+Methods,0.05084745762711865
+Respiratory Distress Syndrome,0.05263157894736842
+Chronic Disease,0.05357142857142857
+Genes,0.05555555555555555
+Pain,0.05555555555555555
+Magnetic Resonance Spectroscopy,0.05555555555555555
+Depressive Disorder,0.05555555555555555
+Reverse Transcriptase Polymerase Chain Reaction,0.05714285714285714
+Structure-Activity Relationship,0.05714285714285714
+Reproducibility of Results,0.058823529411764705
+Emergency Service,0.058823529411764705
+Randomized Controlled Trials as Topic,0.058823529411764705
+Surveys and Questionnaires,0.06153846153846154
+Antineoplastic Agents,0.0625
+Cholesterol,0.0625
+Wounds,0.0625
+Rats,0.06491228070175438
+Dermatitis,0.06666666666666667
+Logistic Models,0.06896551724137931
+Age Factors,0.07058823529411765
+England,0.07142857142857142
+Adsorption,0.07142857142857142
+Canada,0.07142857142857142
+Anti-Bacterial Agents/therapeutic use,0.07142857142857142
+Treatment Outcome,0.07526881720430108
+Sweden,0.07692307692307693
+Endothelium,0.07692307692307693
+Liver/pathology,0.07692307692307693
+Smoking,0.07692307692307693
+HeLa Cells,0.07692307692307693
+Forecasting,0.07692307692307693
+Hospitalization,0.07692307692307693
+Spectrometry,0.07692307692307693
+Multivariate Analysis,0.07692307692307693
+Heart Rate,0.07692307692307693
+Body Mass Index,0.08333333333333333
+Arthroplasty,0.08333333333333333
+Linear Models,0.08333333333333333
+Brain/metabolism,0.08333333333333333
+Evaluation Studies as Topic,0.08333333333333333
+Malaria,0.08333333333333333
+Arrhythmias,0.08333333333333333
+Heterozygote,0.08333333333333333
+Cohort Studies,0.0851063829787234
+Protein Binding,0.08695652173913043
+Clinical Trials,0.09090909090909091
+Glucose/metabolism,0.09090909090909091
+Aorta,0.09090909090909091
+Reaction Time,0.09090909090909091
+Netherlands,0.09090909090909091
+Chi-Square Distribution,0.09090909090909091
+Patient Selection,0.09090909090909091
+Hypertension,0.09375
+Oxidation-Reduction,0.09375
+Genotype,0.09433962264150944
+Phenotype,0.09523809523809523
+Up-Regulation,0.1
+Brain/drug effects,0.1
+Skin Diseases,0.1
+Brazil,0.1
+Tuberculosis,0.1
+Respiration,0.1
+Attitude to Health,0.1
+South Africa,0.1
+Drug Evaluation,0.10526315789473684
+Syndrome,0.10714285714285714
+Research Design,0.1111111111111111
+Practice Guidelines as Topic,0.1111111111111111
+Insulin/blood,0.1111111111111111
+Sex Factors,0.1111111111111111
+Homozygote,0.1111111111111111
+Patient Compliance,0.1111111111111111
+Rupture,0.1111111111111111
+Regression Analysis,0.11538461538461539
+Chemical Phenomena,0.11764705882352941
+Postoperative Complications,0.11764705882352941
+Anemia,0.11764705882352941
+Prospective Studies,0.12
+Adolescent,0.12051282051282051
+Spectrophotometry,0.12121212121212122
+Body Weight/drug effects,0.125
+Quality of Life,0.125
+Social Environment,0.125
+Anesthetics,0.125
+In Vitro Techniques,0.13157894736842105
+Radionuclide Imaging,0.13333333333333333
+Electrocardiography,0.13636363636363635
+Gestational Age,0.13636363636363635
+Aged,0.13956466069142126
+Escherichia coli/enzymology,0.14285714285714285
+Physicians,0.14285714285714285
+Kidney/drug effects,0.14285714285714285
+Activities of Daily Living,0.14285714285714285
+Depression,0.14285714285714285
+Postoperative Period,0.14285714285714285
+Analgesia,0.14285714285714285
+Epilepsy,0.14285714285714285
+Metals,0.14285714285714285
+Social Class,0.14285714285714285
+Reaction Time/physiology,0.14285714285714285
+Surgical Procedures,0.14285714285714285
+Haloperidol/pharmacology,0.14285714285714285
+Hospital Bed Capacity,0.14285714285714285
+Anesthesia,0.15
+Body Weight,0.15789473684210525
+Diabetes Mellitus/blood,0.16666666666666666
+Exercise Test,0.16666666666666666
+Epilepsy/drug therapy,0.16666666666666666
+Cross Reactions,0.16666666666666666
+Legislation,0.16666666666666666
+Enzyme Induction,0.16666666666666666
+Angiography,0.16666666666666666
+Gene Expression Regulation/drug effects,0.16666666666666666
+Psychological Tests,0.16666666666666666
+Nigeria,0.16666666666666666
+Ethnic Groups,0.16666666666666666
+Biological Assay,0.16666666666666666
+Fluorescence,0.16666666666666666
+Osmolar Concentration,0.18181818181818182
+Pneumonia,0.18181818181818182
+Humans,0.18889809444904723
+Acute Disease,0.1935483870967742
+Psychiatric Status Rating Scales,0.2
+Nutritive Value,0.2
+Feeding Behavior,0.2
+Calcium/pharmacology,0.2
+Constriction,0.2
+Clinical Protocols,0.2
+Psychomotor Performance,0.2
+Quality Control,0.2
+Pyridines/pharmacology,0.2
+Hypertension/complications,0.2
+Solvents,0.2
+Heart/drug effects,0.2
+Perfusion,0.2
+Bacteriological Techniques,0.2
+Cyclic AMP/metabolism,0.2
+Muscle Contraction/drug effects,0.2
+Sex Characteristics,0.2
+Blood Pressure/physiology,0.2
+Water/chemistry,0.2
+Postoperative Care,0.2
+Ions,0.2
+Birth Weight,0.2
+Gels,0.2
+Hemoglobins/metabolism,0.2
+Isoenzymes/metabolism,0.2
+Solubility,0.20833333333333334
+Pilot Projects,0.21428571428571427
+Middle Aged,0.2198581560283688
+Fatty Acids,0.2222222222222222
+Tissue Distribution,0.2222222222222222
+Female,0.22334123222748814
+Reference Standards,0.23076923076923078
+Time Factors,0.24555160142348753
+Hydrogen-Ion Concentration,0.2459016393442623
+Kidney/pathology,0.25
+Thyroxine/blood,0.25
+Dialysis,0.25
+Peptides/metabolism,0.25
+Peptides/chemistry,0.25
+Blood Platelets/metabolism,0.25
+Psychomotor Performance/physiology,0.25
+Seizures/etiology,0.25
+Colorimetry,0.25
+Biodegradation,0.25
+Iron/metabolism,0.25
+Carcinogens,0.25
+Blood Proteins/metabolism,0.25
+Nitric Oxide/metabolism,0.25
+Homeostasis,0.25
+Fluorescent Dyes,0.25
+Liver/analysis,0.25
+Coronary Angiography,0.25
+HIV-1/drug effects,0.25
+Breast Feeding,0.25
+Iran,0.25
+Body Weight/physiology,0.25
+Coronary Disease/physiopathology,0.25
+Cardiovascular Diseases/etiology,0.25
+Preoperative Care,0.25
+Mexico,0.25
+Hematocrit,0.25
+Renin-Angiotensin System/drug effects,0.25
+Hypersensitivity,0.25
+Cholecystectomy,0.25
+Enzyme Activation/drug effects,0.25
+Glutamine/pharmacology,0.25
+Drug Stability,0.2727272727272727
+Methylation,0.2857142857142857
+Male,0.29895641497851444
+Pain Measurement,0.3
+Radioimmunoassay,0.3
+Clinical Trials as Topic,0.3055555555555556
+Fatal Outcome,0.3076923076923077
+Sodium-Potassium-Exchanging ATPase/metabolism,0.3333333333333333
+Weight Loss,0.3333333333333333
+Chemistry,0.3333333333333333
+Energy Intake,0.3333333333333333
+Vasodilator Agents/administration & dosage,0.3333333333333333
+Hypoglycemic Agents/pharmacology,0.3333333333333333
+Injections,0.3333333333333333
+Antipsychotic Agents/therapeutic use,0.3333333333333333
+Blood Vessels/drug effects,0.3333333333333333
+Brain Injuries/complications,0.3333333333333333
+Caco-2 Cells,0.3333333333333333
+Wisconsin,0.3333333333333333
+Chemical and Drug Induced Liver Injury,0.3333333333333333
+Menopause,0.3333333333333333
+Aspirin/pharmacology,0.3333333333333333
+Autoimmune Diseases/drug therapy,0.3333333333333333
+Blood Platelets/drug effects,0.3333333333333333
+Body Composition,0.3333333333333333
+Renal Insufficiency,0.3333333333333333
+Terminology as Topic,0.3333333333333333
+Immunoassay,0.3333333333333333
+Ethanolamines/pharmacology,0.3333333333333333
+Intestines/enzymology,0.3333333333333333
+Bacteria/drug effects,0.3333333333333333
+Anti-Bacterial Agents,0.3333333333333333
+Intestinal Mucosa/metabolism,0.3333333333333333
+Self Administration,0.3333333333333333
+Mass Spectrometry,0.3333333333333333
+Coronary Artery Disease/blood,0.3333333333333333
+Maternal-Fetal Exchange,0.3333333333333333
+Obesity/metabolism,0.3333333333333333
+Renal Dialysis,0.3333333333333333
+Serum Albumin/analysis,0.3333333333333333
+Blood Glucose/analysis,0.3333333333333333
+Anxiety,0.3333333333333333
+Adrenal Cortex Hormones/therapeutic use,0.3333333333333333
+Reinforcement (Psychology),0.3333333333333333
+Viscosity,0.3333333333333333
+Cues,0.3333333333333333
+Antihypertensive Agents/administration & dosage,0.3333333333333333
+Hemoglobins/analysis,0.3333333333333333
+Gastrostomy/adverse effects,0.3333333333333333
+Heparin,0.3333333333333333
+Patient Education as Topic,0.3333333333333333
+Automation,0.3333333333333333
+Immunoassay/methods,0.3333333333333333
+Posture,0.3333333333333333
+Preoperative Care/methods,0.3333333333333333
+Depression/etiology,0.3333333333333333
+Bicarbonates/blood,0.3333333333333333
+African Continental Ancestry Group,0.3333333333333333
+Antihypertensive Agents/therapeutic use,0.3333333333333333
+Statistics,0.3333333333333333
+Israel,0.3333333333333333
+Polyurethanes,0.3333333333333333
+Bacterial Infections/drug therapy,0.3333333333333333
+Cognition/physiology,0.3333333333333333
+Renin/blood,0.3333333333333333
+Blood Glucose/drug effects,0.3333333333333333
+Hydrocortisone/blood,0.3333333333333333
+Potassium/blood,0.3333333333333333
+Immunosuppressive Agents/adverse effects,0.3333333333333333
+Indicators and Reagents,0.3333333333333333
+Heart Valve Prosthesis,0.3333333333333333
+Personality Inventory,0.3333333333333333
+Drug Resistance,0.3548387096774194
+Kinetics,0.3684210526315789
+Calibration,0.375
+Dose-Response Relationship,0.3854166666666667
+Intestine,0.3888888888888889
+Kidney Failure,0.3888888888888889
+Estradiol/pharmacology,0.4
+Hypertension/etiology,0.4
+Cations,0.4
+False Negative Reactions,0.4
+Antibiotics,0.4
+Ultrafiltration,0.4
+Ointments,0.4
+Propranolol/pharmacology,0.5
+Urea/pharmacology,0.5
+Blood Coagulation Tests,0.5
+Intestinal Mucosa/cytology,0.5
+Gastrostomy,0.5
+Evoked Potentials/drug effects,0.5
+Energy Metabolism/drug effects,0.5
+Calcium/therapeutic use,0.5
+Blood Glucose/metabolism,0.5
+Saliva/chemistry,0.5
+Glomerular Filtration Rate/drug effects,0.5
+Pharmaceutical Preparations/metabolism,0.5
+Pulse/drug effects,0.5
+Pharmacogenetics,0.5
+Clavulanic Acid,0.5
+Skin Diseases/etiology,0.5
+Hypoxia-Ischemia,0.5
+Neoplasms/drug therapy,0.5
+Neoplasms/prevention & control,0.5
+Medical Records,0.5
+False Positive Reactions,0.5
+Movement Disorders/etiology,0.5
+Bone Marrow Transplantation,0.5
+Morphine/pharmacology,0.5
+Papio,0.5
+Serotonin/metabolism,0.5
+Quercetin/administration & dosage,0.5
+Diabetes Complications,0.5
+Cerebral Hemorrhage/etiology,0.5
+Pain/drug therapy,0.5
+Mitral Valve Insufficiency/surgery,0.5
+Heart Diseases/chemically induced,0.5
+Aortic Valve,0.5
+Diuretics/therapeutic use,0.5
+Food Contamination,0.5
+Sports,0.5
+Thrombosis/etiology,0.5
+Memory/physiology,0.5
+Dosage Forms,0.5
+Linoleic Acids,0.5
+Stomach/drug effects,0.5
+Furosemide/pharmacology,0.5
+Liver/blood supply,0.5
+Erythrocytes,0.5
+Plant Roots/chemistry,0.5
+NADP/metabolism,0.5
+Food Microbiology,0.5
+Epinephrine/blood,0.5
+Alcohol Drinking/psychology,0.5
+Epilepsy/metabolism,0.5
+Body Temperature/drug effects,0.5
+Consumer Product Safety,0.5
+Drug Labeling,0.5
+Sodium/deficiency,0.5
+Substance Withdrawal Syndrome/metabolism,0.5
+Calcium,0.5
+Dietary Fats/metabolism,0.5
+APACHE,0.5
+Vasospasm,0.5
+Observation,0.5
+Psychotic Disorders/drug therapy,0.5
+Neural Conduction,0.5
+Antipsychotic Agents/administration & dosage,0.5
+Tandem Mass Spectrometry/methods,0.5
+Drug Industry,0.5
+Gastrointestinal Hemorrhage/chemically induced,0.5
+Benzamides/administration & dosage,0.5
+Lung Neoplasms/metabolism,0.5
+Anti-HIV Agents/therapeutic use,0.5
+Gastrointestinal Diseases/chemically induced,0.5
+Central Nervous System Depressants/administration & dosage,0.5
+Adipose Tissue/metabolism,0.5
+Benzodiazepines/administration & dosage,0.5
+Critical Care,0.5
+Lipid Peroxidation/drug effects,0.5
+Lethal Dose 50,0.5
+Alcoholism/complications,0.5
+Amino Acids/pharmacology,0.5
+Bridged Bicyclo Compounds,0.5
+Immunosuppressive Agents/pharmacology,0.5
+Feces/analysis,0.5
+Enzyme Inhibitors/administration & dosage,0.5
+Calcium/administration & dosage,0.5
+Heart Failure/blood,0.5
+Piperidines/pharmacology,0.5
+Lysine/analogs & derivatives,0.5
+Glucose Tolerance Test,0.5
+Adult,0.5116772823779193
+Anti-Inflammatory Agents,0.5151515151515151
+Drug Therapy,0.5555555555555556
+Chromatography,0.5701754385964912
+Breath Tests,0.6
+Platelet Aggregation/drug effects,0.6
+Safety,0.6
+Intubation,0.625
+Drug Administration Schedule,0.6363636363636364
+Analysis of Variance,0.6595744680851063
+Hypertension/physiopathology,0.6666666666666666
+Norepinephrine/blood,0.6666666666666666
+Blood Proteins/analysis,0.6666666666666666
+Microdialysis,0.6666666666666666
+Creatine Kinase/blood,0.6666666666666666
+Pain/physiopathology,0.6666666666666666
+Heparin/adverse effects,0.6666666666666666
+Clarithromycin/pharmacology,0.6666666666666666
+Hypertension/prevention & control,0.6666666666666666
+Antidepressive Agents/therapeutic use,0.6666666666666666
+Sodium/blood,0.6666666666666666
+Pain/etiology,0.6666666666666666
+Nutritional Status,0.6666666666666666
+Cyclosporine/therapeutic use,0.75
+Stereoisomerism,0.75
+Medicine,0.75
+United States Food and Drug Administration,0.75
+Contraindications,0.75
+Water/metabolism,0.75
+Infusions,0.7619047619047619
+Confidence Intervals,0.8
+Liver/drug effects,0.8571428571428571
+Enzyme Inhibitors/pharmacology,0.8666666666666667
+Random Allocation,0.9523809523809523
+Water,1.0
+Menthol/administration & dosage,1.0
+HIV-1/enzymology,1.0
+Triazoles/adverse effects,1.0
+Clindamycin/administration & dosage,1.0
+Patient Dropouts,1.0
+Anthelmintics/pharmacokinetics,1.0
+Sildenafil Citrate,1.0
+Psychotic Disorders/blood,1.0
+Edible Grain,1.0
+Ephedrine/pharmacokinetics,1.0
+Hydroxydopamines/pharmacology,1.0
+Chlorpropamide/therapeutic use,1.0
+Ephedra/adverse effects,1.0
+Carbohydrate Metabolism,1.0
+Cerebral Infarction/drug therapy,1.0
+Iron/administration & dosage,1.0
+Neomycin/pharmacology,1.0
+Analgesics/therapeutic use,1.0
+Fluphenazine/pharmacology,1.0
+Naphthyridines/pharmacokinetics,1.0
+Sesquiterpenes/administration & dosage,1.0
+Antidepressive Agents/pharmacokinetics,1.0
+Depressive Disorder/blood,1.0
+Infant Food/adverse effects,1.0
+Hypoglycemic Agents/isolation & purification,1.0
+Estradiol Congeners/pharmacokinetics,1.0
+Miconazole/metabolism,1.0
+Triazoles/pharmacokinetics,1.0
+Metoprolol/administration & dosage,1.0
+Cytochrome P-450 CYP2E1 Inhibitors,1.0
+Spironolactone/pharmacology,1.0
+Sodium/pharmacology,1.0
+Anti-Anxiety Agents,1.0
+Naproxen/adverse effects,1.0
+Phosphodiesterase Inhibitors/adverse effects,1.0
+Parkinson Disease/drug therapy,1.0
+Staphylococcus aureus/isolation & purification,1.0
+Cooking,1.0
+Peritonitis/drug therapy,1.0
+Angiotensin-Converting Enzyme Inhibitors/blood,1.0
+Drug Resistance/drug effects,1.0
+Isoquinolines/pharmacokinetics,1.0
+Tannins,1.0
+Bromobenzenes/pharmacology,1.0
+Powders,1.0
+Antipsychotic Agents/pharmacology,1.0
+Nausea/drug therapy,1.0
+Bronchial Spasm/drug therapy,1.0
+Diarrhea/therapy,1.0
+HIV Infections/complications,1.0
+Antiprotozoal Agents/blood,1.0
+Salvia,1.0
+Drug Contamination,1.0
+Chelating Agents/administration & dosage,1.0
+Thrombosis/prevention & control,1.0
+Diazepam/pharmacokinetics,1.0
+Melatonin/administration & dosage,1.0
+Subdural/pathology,1.0
+Orthostatic/diagnosis,1.0
+Meat Products/analysis,1.0
+Monoclonal/pharmacology,1.0
+Magnesium Hydroxide,1.0
+Minocycline/blood,1.0
+Metronidazole/pharmacokinetics,1.0
+Monoamine Oxidase Inhibitors/metabolism,1.0
+Coprinus/pathogenicity,1.0
+Sulfamethazine/adverse effects,1.0
+Brain Diseases/chemically induced,1.0
+Aza Compounds,1.0
+Reducing/adverse effects,1.0
+Ketoconazole,1.0
+Diuretics/pharmacokinetics,1.0
+Dietary Supplements/utilization,1.0
+Hibiscus,1.0
+Tetracyclines/blood,1.0
+Peripheral Nervous System Diseases/chemically induced,1.0
+Tricyclic,1.0
+Pipemidic Acid/pharmacology,1.0
+Ischemia/etiology,1.0
+Hospital Volunteers,1.0
+Brain/chemically induced,1.0
+Dipyridamole/antagonists & inhibitors,1.0
+Oxprenolol/blood,1.0
+Cellulose,1.0
+Enalapril/metabolism,1.0
+Allyl Compounds,1.0
+Serotonin Receptor Agonists/blood,1.0
+Brain Injuries/psychology,1.0
+Opioid/pharmacokinetics,1.0
+Member 1/biosynthesis,1.0
+Imidazoles/pharmacokinetics,1.0
+Drug-Induced,1.0
+Doxycycline/metabolism,1.0
+Tissue Distribution/drug effects,1.0
+beta/metabolism,1.0
+Perylene/pharmacokinetics,1.0
+Nitrendipine/pharmacology,1.0
+Anti-Asthmatic Agents/administration & dosage,1.0
+Calcium/blood,1.0
+Clindamycin/pharmacokinetics,1.0
+Ascorbic Acid/pharmacology,1.0
+Constipation/diet therapy,1.0
+Panax/metabolism,1.0
+Graft Rejection/etiology,1.0
+Chemical Precipitation,1.0
+Non-Narcotic/blood,1.0
+Nimodipine/pharmacokinetics,1.0
+Opioid/blood,1.0
+Amlodipine/adverse effects,1.0
+Caffeine/toxicity,1.0
+Electrospray Ionization,1.0
+Pyridines/therapeutic use,1.0
+Metabolic Clearance Rate/physiology,1.0
+Orthostatic/drug therapy,1.0
+Drug-Induced/blood,1.0
+Estrone/blood,1.0
+Psoriasis/drug therapy,1.0
+Clavulanic Acids/metabolism,1.0
+Pyridazines/pharmacokinetics,1.0
+Cholestyramine Resin/metabolism,1.0
+Propantheline/pharmacology,1.0
+NADP,1.0
+Alcoholic Intoxication,1.0
+Cellulose/metabolism,1.0
+Plantago/adverse effects,1.0
+Brain Death/diagnosis,1.0
+Acenocoumarol/pharmacology,1.0
+Antifungal Agents/metabolism,1.0
+Quinine/urine,1.0
+Tetrazoles/administration & dosage,1.0
+Furazolidone/toxicity,1.0
+Piperazines/adverse effects,1.0
+Thiazines/metabolism,1.0
+Complementary Therapies/utilization,1.0
+Dihydroergotamine/pharmacokinetics,1.0
+Tromethamine/toxicity,1.0
+Pargyline,1.0
+Isoniazid/pharmacokinetics,1.0
+Acetylcysteine/administration & dosage,1.0
+Intracranial Hemorrhages/chemically induced,1.0
+Albendazole/pharmacokinetics,1.0
+Benzophenones/pharmacokinetics,1.0
+Indomethacin/administration & dosage,1.0
+Digoxin/administration & dosage,1.0
+Antipsychotic Agents/chemistry,1.0
+Proguanil/pharmacology,1.0
+Sodium/urine,1.0
+Catalysis/drug effects,1.0
+Dietary Fiber/therapeutic use,1.0
+Saliva/metabolism,1.0
+European Continental Ancestry Group,1.0
+Vitamin K Deficiency/physiopathology,1.0
+Cosmetics/adverse effects,1.0
+Pakistan/ethnology,1.0
+Carbohydrates/administration & dosage,1.0
+Prednisolone/blood,1.0
+East Asian Traditional,1.0
+Valproic Acid/pharmacokinetics,1.0
+Artificial,1.0
+Opioid/pharmacology,1.0
+Autoimmune Diseases/blood,1.0
+Quinidine/analysis,1.0
+Tetracycline/urine,1.0
+Pregnancy/blood,1.0
+Hydralazine/pharmacology,1.0
+Organic Anion Transporters/chemistry,1.0
+Pregnancy Complications/chemically induced,1.0
+Anti-Asthmatic Agents/blood,1.0
+Verapamil/administration & dosage,1.0
+Liver Diseases/metabolism,1.0
+N-Demethylating/antagonists & inhibitors,1.0
+Nutritional Requirements,1.0
+Drug Residues/poisoning,1.0
+Oxprenolol/metabolism,1.0
+Tears/metabolism,1.0
+Pharmacology,1.0
+Cyclohexanols/pharmacology,1.0
+Verapamil/urine,1.0
+Fluphenazine/blood,1.0
+Urethritis/drug therapy,1.0
+Amoxicillin/administration & dosage,1.0
+Gram-Negative Bacterial Infections/metabolism,1.0
+Depressive Disorder/complications,1.0
+Terfenadine/pharmacology,1.0
+Fluorenes/pharmacokinetics,1.0
+Momordica charantia,1.0
+Aminophylline/blood,1.0
+Sinusitis/drug therapy,1.0
+Lithium/metabolism,1.0
+Pneumocystis/prevention & control,1.0
+Povidone,1.0
+Drug-Related Side Effects and Adverse Reactions,1.0
+Smooth,1.0
+Affect/physiology,1.0
+Anticarcinogenic Agents/metabolism,1.0
+Benzodiazepinones/blood,1.0
+Graft Rejection/physiopathology,1.0
+Estradiol Congeners/blood,1.0
+Amphetamine/analogs & derivatives,1.0
+Ethanol,1.0
+Proton Pump Inhibitors,1.0
+Tetrazoles/blood,1.0
+Phenytoin/poisoning,1.0
+Plants/chemistry,1.0
+Divalent,1.0
+Ethionamide/pharmacology,1.0
+Cell Surface/drug effects,1.0
+Hydroxymethylglutaryl-CoA Reductase Inhibitors/therapeutic use,1.0
+Running,1.0
+Amphetamines,1.0
+Cytochrome P-450 CYP2D6,1.0
+Abnormal,1.0
+Flunitrazepam/pharmacokinetics,1.0
+Anti-Bacterial Agents/pharmacology,1.0
+Wakefulness/drug effects,1.0
+Hypoglycemic Agents,1.0
+Inpatients,1.0
+Stomach/metabolism,1.0
+Non-Steroidal/chemistry,1.0
+Histamine H1 Antagonists/pharmacology,1.0
+Dietary Carbohydrates/adverse effects,1.0
+Terfenadine/administration & dosage,1.0
+Antifibrinolytic Agents/pharmacokinetics,1.0
+Sulfinic Acids/metabolism,1.0
+Citrus paradisi/physiology,1.0
+Mushroom Poisoning/therapy,1.0
+Plant Roots/anatomy & histology,1.0
+Absorption/drug effects,1.0
+Splanchnic Circulation,1.0
+Dried/analysis,1.0
+Lansoprazole,1.0
+Coma/chemically induced,1.0
+Bromobenzenes/pharmacokinetics,1.0
+Triazolam/antagonists & inhibitors,1.0
+Metabolism/drug effects,1.0
+Fluorometry,1.0
+Gallbladder/drug effects,1.0
+Substance Withdrawal Syndrome/blood,1.0
+Garlic/chemistry,1.0
+Hypnotics and Sedatives,1.0
+Ethanolamines/therapeutic use,1.0
+Methysergide/administration & dosage,1.0
+Plant Preparations/pharmacokinetics,1.0
+Triazolam/administration & dosage,1.0
+Anti-HIV Agents/pharmacology,1.0
+Ticlopidine/blood,1.0
+Sulfonamides/metabolism,1.0
+Potassium/urine,1.0
+Nicardipine/pharmacokinetics,1.0
+Controlled Clinical Trials as Topic,1.0
+Oral/pharmacokinetics,1.0
+Diltiazem/pharmacokinetics,1.0
+Oxazepam/blood,1.0
+Gastrostomy/instrumentation,1.0
+Quercetin/pharmacology,1.0
+Cyclohexanols/adverse effects,1.0
+Tyramine/therapeutic use,1.0
+Diet Records,1.0
+Tetracycline/administration & dosage,1.0
+Messenger/analysis,1.0
+Cardiovascular Diseases/drug therapy,1.0
+Edible,1.0
+Calcium Chloride,1.0
+Valproic Acid/poisoning,1.0
+Phosphodiesterase Inhibitors/pharmacokinetics,1.0
+Fentanyl/pharmacology,1.0
+Inbred ICR,1.0
+Omeprazole,1.0
+Liquid,1.0
+Enzyme Inhibitors/blood,1.0
+Vitamin K 2/analogs & derivatives,1.0
+gamma-Linolenic Acid,1.0
+Flavonoids/metabolism,1.0
+Inhalation/adverse effects,1.0
+Antimalarials/therapeutic use,1.0
+Orthostatic/physiopathology,1.0
+Diltiazem/administration & dosage,1.0
+Blood Loss,1.0
+Escherichia coli/isolation & purification,1.0
+Hematologic Diseases/blood,1.0
+Ziziphus/adverse effects,1.0
+Uterine Hemorrhage/chemically induced,1.0
+Hallux/blood supply,1.0
+Opioid/therapeutic use,1.0
+Hyperemia/chemically induced,1.0
+Tyramine,1.0
+Wine/analysis,1.0
+Diazepam/blood,1.0
+Diabetic Nephropathies/therapy,1.0
+Non-Steroidal,1.0
+Reverse Transcriptase Inhibitors/blood,1.0
+Acetates/blood,1.0
+Calcium Channel Blockers/urine,1.0
+Methylprednisolone/pharmacology,1.0
+Ischemia/drug therapy,1.0
+Calcium Channel Blockers/chemistry,1.0
+Anti-Infective Agents/analysis,1.0
+Coronary Disease/drug therapy,1.0
+Autonomic Nervous System Diseases/drug therapy,1.0
+Bread/analysis,1.0
+Glass,1.0
+Cefuroxime/analogs & derivatives,1.0
+Carbamazepine/blood,1.0
+Morphine/urine,1.0
+Polyacrylamide Gel,1.0
+Norpregnenes/pharmacology,1.0
+Quinine/pharmacokinetics,1.0
+Blood Platelet Disorders/complications,1.0
+Substance-Related Disorders/drug therapy,1.0
+Diet/standards,1.0
+Cloxacillin/administration & dosage,1.0
+Cephalosporins/urine,1.0
+Neurocognitive Disorders/drug therapy,1.0
+Anxiety/drug therapy,1.0
+Naphthyridines/metabolism,1.0
+Hydrastis/metabolism,1.0
+Capsicum,1.0
+Cardiovascular System/drug effects,1.0
+Weight Loss/drug effects,1.0
+Phase I as Topic,1.0
+Oxazepam/analogs & derivatives,1.0
+Beverages/microbiology,1.0
+Angiotensin I/pharmacology,1.0
+Gunshot/therapy,1.0
+Hypolipidemic Agents/pharmacokinetics,1.0
+Sleep/drug effects,1.0
+Benzodiazepinones/pharmacokinetics,1.0
+Estrogens/adverse effects,1.0
+Medicago sativa/adverse effects,1.0
+Sodium-Potassium-Exchanging ATPase/antagonists & inhibitors,1.0
+Hospital,1.0
+Dextromethorphan/urine,1.0
+Debrisoquin/pharmacokinetics,1.0
+Environmental,1.0
+Furocoumarins/isolation & purification,1.0
+Butanones/metabolism,1.0
+Dextroamphetamine,1.0
+Flurbiprofen/administration & dosage,1.0
+Sumatriptan/therapeutic use,1.0
+Lorazepam/antagonists & inhibitors,1.0
+Subdural/chemically induced,1.0
+Digoxin/chemistry,1.0
+Anticoagulants/analysis,1.0
+Back Pain/drug therapy,1.0
+Oximes,1.0
+Propanolamines/metabolism,1.0
+Acquired Immunodeficiency Syndrome/drug therapy,1.0
+Tonic-Clonic/drug therapy,1.0
+Saquinavir/metabolism,1.0
+Ticlopidine/pharmacology,1.0
+Cephalosporins,1.0
+Aloe/adverse effects,1.0
+Aspiration/complications,1.0
+Oral/administration & dosage,1.0
+Cimetidine/metabolism,1.0
+Thiazines/pharmacokinetics,1.0
+Erythromycin/metabolism,1.0
+X-Ray Computed,1.0
+Sympathetic Nervous System/drug effects,1.0
+Chlorpropamide/metabolism,1.0
+Osteocalcin/blood,1.0
+ATP Binding Cassette Transporter,1.0
+Alfentanil,1.0
+Tetrazoles/metabolism,1.0
+Fruit/adverse effects,1.0
+Tea/metabolism,1.0
+Thallium,1.0
+Anti-HIV Agents/blood,1.0
+General/adverse effects,1.0
+Magnoliopsida/therapeutic use,1.0
+Acetylation,1.0
+Lovastatin/adverse effects,1.0
+Autonomic Nervous System Diseases/chemically induced,1.0
+Alkalosis/chemically induced,1.0
+Methoxsalen/adverse effects,1.0
+Anti-Allergic Agents/adverse effects,1.0
+Warfarin/analogs & derivatives,1.0
+Gastrectomy,1.0
+Aminophylline/administration & dosage,1.0
+Depression/complications,1.0
+Ergotism/diagnosis,1.0
+Drug Hypersensitivity/etiology,1.0
+Dementia/prevention & control,1.0
+Chemical,1.0
+Medicago/chemistry,1.0
+Dairy Products/analysis,1.0
+Ampicillin/pharmacokinetics,1.0
+Cyclohexanols/therapeutic use,1.0
+Methylation/drug effects,1.0
+Bismuth/adverse effects,1.0
+Heptanoic Acids/blood,1.0
+Dyspepsia/drug therapy,1.0
+Piperazines/pharmacokinetics,1.0
+Zingiberales,1.0
+Hydralazine/therapeutic use,1.0
+Ethanol/urine,1.0
+Anemia/epidemiology,1.0
+Sumatriptan/adverse effects,1.0
+Jejunostomy/instrumentation,1.0
+Aluminum Hydroxide/urine,1.0
+Ginkgo biloba/chemistry,1.0
+Ambulatory,1.0
+Anaphylaxis/chemically induced,1.0
+Discrimination Learning/drug effects,1.0
+Anti-Obesity Agents/pharmacology,1.0
+Acquired Immunodeficiency Syndrome/complications,1.0
+Central Nervous System Depressants/antagonists & inhibitors,1.0
+Mental Disorders/drug therapy,1.0
+Chest Pain/drug therapy,1.0
+Hemostatics/adverse effects,1.0
+Furocoumarins/analysis,1.0
+Isoniazid/metabolism,1.0
+Anxiety Disorders,1.0
+Hypotension/etiology,1.0
+Antacids/administration & dosage,1.0
+Chlorpromazine/metabolism,1.0
+Phloroglucinol/analogs & derivatives,1.0
+Individuality,1.0
+Acenocoumarol/administration & dosage,1.0
+Plasmodium falciparum/isolation & purification,1.0
+Piperazines/blood,1.0
+Naloxone/metabolism,1.0
+Vitamin K Deficiency/complications,1.0
+Acute Kidney Injury/complications,1.0
+Enalapril/urine,1.0
+Trimethoprim,1.0
+Cephalosporins/blood,1.0
+Anticoagulants/metabolism,1.0
+Theophylline/therapeutic use,1.0
+Thromboembolism/drug therapy,1.0
+Pyrimidines/adverse effects,1.0
+Aluminum Hydroxide/therapeutic use,1.0
+Perylene/analogs & derivatives,1.0
+Atrophic/veterinary,1.0
+500 and over,1.0
+Cathartics/pharmacology,1.0
+Trees,1.0
+Kava/therapeutic use,1.0
+Methylene Chloride/chemistry,1.0
+Member 1/pharmacokinetics,1.0
+Dopamine/drug effects,1.0
+Cyclodextrins/urine,1.0
+Norfloxacin/pharmacology,1.0
+Vitamin K 1/administration & dosage,1.0
+Lithium/urine,1.0
+Complementary Therapies,1.0
+Ranitidine/pharmacology,1.0
+Cycloserine/administration & dosage,1.0
+Laparoscopic,1.0
+Ephedrine/pharmacology,1.0
+Piroxicam/blood,1.0
+Dietary Sucrose/analysis,1.0
+Second-Generation/pharmacology,1.0
+Blood Vessels/metabolism,1.0
+Agoraphobia/psychology,1.0
+Intracranial/chemically induced,1.0
+Sleep/physiology,1.0
+Vasodilator Agents/pharmacology,1.0
+Calcium Channel Blockers/metabolism,1.0
+Caco-2 Cells/enzymology,1.0
+Alcoholic Intoxication/diagnosis,1.0
+Acetazolamide/pharmacology,1.0
+Vitamin K Deficiency/blood,1.0
+Anticonvulsants/poisoning,1.0
+Sodium-Restricted/adverse effects,1.0
+Dietary/administration & dosage,1.0
+Mental Disorders/chemically induced,1.0
+Surgical,1.0
+Theophylline/toxicity,1.0
+Vasodilator Agents/metabolism,1.0
+Aryl Hydrocarbon Hydroxylases/biosynthesis,1.0
+Spinacia oleracea/chemistry,1.0
+Norfloxacin/pharmacokinetics,1.0
+Renal Dialysis/adverse effects,1.0
+Morphine/analysis,1.0
+Cephalexin/metabolism,1.0
+Midazolam,1.0
+Cathartics/therapeutic use,1.0
+Single-Blind Method,1.0
+Plant Gums,1.0
+Heart/physiopathology,1.0
+Tranquilizing Agents/toxicity,1.0
+Sudan,1.0
+Caffeine/chemistry,1.0
+Muscle Relaxants,1.0
+Nitroglycerin/therapeutic use,1.0
+Piroxicam/analogs & derivatives,1.0
+Kidney/blood supply,1.0
+Calcium Radioisotopes,1.0
+MDR/drug effects,1.0
+Anti-Arrhythmia Agents/metabolism,1.0
+Diuretics/adverse effects,1.0
+Prednisone/pharmacokinetics,1.0
+Intermittent Claudication/chemically induced,1.0
+Ischemia/diagnostic imaging,1.0
+Ketoconazole/adverse effects,1.0
+Hydrolyzable Tannins,1.0
+Plant Extracts/analysis,1.0
+Set (Psychology),1.0
+Uremia/therapy,1.0
+Swine Diseases/prevention & control,1.0
+Acids/administration & dosage,1.0
+Aluminum/adverse effects,1.0
+Cyclosporine/adverse effects,1.0
+Arousal/drug effects,1.0
+Consciousness/drug effects,1.0
+Acute Kidney Injury/therapy,1.0
+Vitamin E/adverse effects,1.0
+Hydroxymethylglutaryl-CoA Reductase Inhibitors/pharmacology,1.0
+Sub-Family B/metabolism,1.0
+Pulmonary/drug therapy,1.0
+Adult/complications,1.0
+Pneumonia/metabolism,1.0
+Anti-Infective Agents/adverse effects,1.0
+Plantago/chemistry,1.0
+Butter,1.0
+Glutamates/pharmacology,1.0
+Nortriptyline/metabolism,1.0
+Antihypertensive Agents/urine,1.0
+Anacardiaceae/adverse effects,1.0
+Antipyrine/metabolism,1.0
+Thinking/drug effects,1.0
+Phenacetin/blood,1.0
+Plant Preparations,1.0
+Anthelmintics/administration & dosage,1.0
+Mycobacterium tuberculosis,1.0
+Nimodipine/administration & dosage,1.0
+Personality Disorders/drug therapy,1.0
+Automobile Driving,1.0
+Immunoblotting/statistics & numerical data,1.0
+Iron-Deficiency/drug therapy,1.0
+Soybean Proteins/administration & dosage,1.0
+Midazolam/administration & dosage,1.0
+Minocycline/administration & dosage,1.0
+Alcoholism/drug therapy,1.0
+Systole/physiology,1.0
+Lanatosides/analysis,1.0
+Sleep Stages/drug effects,1.0
+Enoxacin/pharmacokinetics,1.0
+Mixed Function Oxygenases/immunology,1.0
+Dicumarol/metabolism,1.0
+Peripheral Nervous System Diseases/diagnosis,1.0
+Migraine Disorders/prevention & control,1.0
+Tolbutamide/administration & dosage,1.0
+Azabicyclo Compounds,1.0
+Imidazoles/metabolism,1.0
+Demeclocycline/pharmacology,1.0
+Anemia/etiology,1.0
+Antitubercular/administration & dosage,1.0
+Morphine/metabolism,1.0
+Saquinavir/blood,1.0
+Milk Hypersensitivity/etiology,1.0
+Estramustine/therapeutic use,1.0
+Disulfiram/chemistry,1.0
+Anti-Arrhythmia Agents/pharmacology,1.0
+Cytochrome P-450 Enzyme System,1.0
+Bipolar Disorder/blood,1.0
+Fluoxetine/pharmacology,1.0
+Coumarins/adverse effects,1.0
+Androgen Antagonists/pharmacology,1.0
+Ammonium Chloride/pharmacology,1.0
+Hypolipidemic Agents/blood,1.0
+Chlordiazepoxide/administration & dosage,1.0
+Opioid/urine,1.0
+Food Additives/poisoning,1.0
+Pivampicillin/metabolism,1.0
+Photosensitizing Agents/adverse effects,1.0
+Cyclodextrins/blood,1.0
+Vascular/drug effects,1.0
+Organic Anion Transporters/antagonists & inhibitors,1.0
+Cardiac/etiology,1.0
+Sesquiterpenes/therapeutic use,1.0
+Learning/drug effects,1.0
+Substance-Related Disorders/rehabilitation,1.0
+Phenacetin/metabolism,1.0
+Food Preservation,1.0
+Ampicillin/administration & dosage,1.0
+Drug-Induced/therapy,1.0
+Attention/drug effects,1.0
+Cyclic AMP/blood,1.0
+Epistaxis/etiology,1.0
+Indoles/pharmacokinetics,1.0
+Blood,1.0
+Coumarins/antagonists & inhibitors,1.0
+Enalapril,1.0
+Magnoliopsida/chemistry,1.0
+Cytochrome P-450 CYP2E1/metabolism,1.0
+Disulfiram/isolation & purification,1.0
+Solutions/adverse effects,1.0
+Simvastatin/administration & dosage,1.0
+Pravastatin/blood,1.0
+Anti-Inflammatory Agents/adverse effects,1.0
+Cimicifuga/metabolism,1.0
+Omeprazole/urine,1.0
+Menthol/pharmacology,1.0
+HIV Infections/enzymology,1.0
+Complementary/genetics,1.0
+Seizures/chemically induced,1.0
+Milk Thistle/chemistry,1.0
+Antihypertensive Agents/blood,1.0
+Smoking/blood,1.0
+Oxazoles/blood,1.0
+Photosensitivity Disorders/etiology,1.0
+Ethacrynic Acid/pharmacology,1.0
+Angiotensin I/antagonists & inhibitors,1.0
+Platelet Aggregation Inhibitors/pharmacology,1.0
+Sumatriptan/administration & dosage,1.0
+Tetracycline/blood,1.0
+Ouabain/metabolism,1.0
+Oxytetracycline/metabolism,1.0
+Milk/metabolism,1.0
+Myocardial Infarction/etiology,1.0
+Brassica,1.0
+Diet Fads/adverse effects,1.0
+Fleroxacin/pharmacology,1.0
+Serotonin Uptake Inhibitors/therapeutic use,1.0
+Nisoldipine/adverse effects,1.0
+Bromobenzenes/therapeutic use,1.0
+Milk/physiology,1.0
+Cloxacillin/adverse effects,1.0
+Tonic-Clonic/metabolism,1.0
+Anti-HIV Agents/pharmacokinetics,1.0
+Caco-2 Cells/drug effects,1.0
+Alcohol Drinking/urine,1.0
+Basidiomycota,1.0
+Cyclosporins/administration & dosage,1.0
+Clinical/methods,1.0
+Low-Molecular-Weight,1.0
+Estradiol/blood,1.0
+Catalepsy/chemically induced,1.0
+Anti-Anxiety Agents/adverse effects,1.0
+Adrenergic beta-Antagonists/administration & dosage,1.0
+Cholestyramine Resin/therapeutic use,1.0
+Ginger/metabolism,1.0
+Kidney/physiology,1.0
+Flavonoids/administration & dosage,1.0
+Methoxsalen/urine,1.0
+Cardiac Glycosides/therapeutic use,1.0
+Emission-Computed,1.0
+Brain Injuries/drug therapy,1.0
+Acetaldehyde/urine,1.0
+Quinine/blood,1.0
+Prostatic Neoplasms/drug therapy,1.0
+Serotonin Receptor Agonists/therapeutic use,1.0
+Paroxetine/adverse effects,1.0
+Gastrointestinal Tract/pharmacology,1.0
+Tromethamine/analogs & derivatives,1.0
+Food Hypersensitivity/etiology,1.0
+Polyethylene Glycols/pharmacology,1.0
+Panax/analysis,1.0
+Nebraska,1.0
+Oxazines/metabolism,1.0
+Carbohydrates/pharmacology,1.0
+Hemostatics/therapeutic use,1.0
+Desvenlafaxine Succinate,1.0
+Folklore,1.0
+Magnoliopsida/adverse effects,1.0
+Anti-Anxiety Agents/administration & dosage,1.0
+Glutamine/chemical synthesis,1.0
+Buspirone/blood,1.0
+Food/statistics & numerical data,1.0
+Foodborne Diseases/drug therapy,1.0
+Thiazoles/blood,1.0
+Bendroflumethiazide/therapeutic use,1.0
+HIV Infections/blood,1.0
+Behavior/drug effects,1.0
+Quinolones/pharmacology,1.0
+Blood Vessels/physiology,1.0
+Cephalosporins/metabolism,1.0
+Trifluoperazine/therapeutic use,1.0
+Psyllium/therapeutic use,1.0
+Clofazimine/pharmacology,1.0
+Antihypertensive Agents/metabolism,1.0
+Purines,1.0
+Enzyme Inhibitors/adverse effects,1.0
+Ibuprofen/adverse effects,1.0
+Gram-Negative Bacterial Infections/drug therapy,1.0
+Metoclopramide/pharmacology,1.0
+Drug Administration Routes,1.0
+Ketoconazole/therapeutic use,1.0
+Peritonitis/metabolism,1.0
+Amitriptyline/metabolism,1.0
+Hydroxytryptophol/urine,1.0
+Metrorrhagia/etiology,1.0
+Antidiarrheals/blood,1.0
+Cranial/surgery,1.0
+Imidazoles/blood,1.0
+Ketoprofen/pharmacology,1.0
+Hematologic Diseases/drug therapy,1.0
+Cyclohexanols/blood,1.0
+Major/drug therapy,1.0
+Quinolones/blood,1.0
+Cholestyramine Resin/pharmacology,1.0
+Levonorgestrel/pharmacology,1.0
+Osteoarthritis/drug therapy,1.0
+Biotransformation/drug effects,1.0
+Genetic,1.0
+Pyrazoles/administration & dosage,1.0
+Lymph Node/drug therapy,1.0
+Indoles/administration & dosage,1.0
+Catecholamines/blood,1.0
+Adenosine/antagonists & inhibitors,1.0
+Propofol,1.0
+Enteral Nutrition/instrumentation,1.0
+Lactones/adverse effects,1.0
+Ephedrine/therapeutic use,1.0
+Sri Lanka,1.0
+Antidiarrheals/pharmacology,1.0
+Gingival Hemorrhage/etiology,1.0
+Triazolam/pharmacology,1.0
+Menstruation/drug effects,1.0
+Dyspepsia/chemically induced,1.0
+Lithium/blood,1.0
+Physical Endurance/drug effects,1.0
+Terfenadine/adverse effects,1.0
+Fibrinolytic Agents/therapeutic use,1.0
+Lasalocid/pharmacology,1.0
+Bone and Bones/physiology,1.0
+Naproxen/blood,1.0
+Melatonin/pharmacokinetics,1.0
+Platelet Aggregation Inhibitors/adverse effects,1.0
+Estradiol Congeners/administration & dosage,1.0
+Rhabdomyolysis/chemically induced,1.0
+Probiotics/therapeutic use,1.0
+Sleep Deprivation/therapy,1.0
+Clinical Nursing Research,1.0
+Prothrombin/analysis,1.0
+Patients,1.0
+Benzophenones/pharmacology,1.0
+Clozapine/analogs & derivatives,1.0
+LDL/blood,1.0
+Pharmaceutical Preparations,1.0
+Aminophylline/metabolism,1.0
+Estrogen Replacement Therapy,1.0
+HIV-1,1.0
+Quinolines,1.0
+Quinolines/blood,1.0
+Chinese Herbal/poisoning,1.0
+Pyrimidines/metabolism,1.0
+Oxytetracycline/pharmacology,1.0
+Fluconazole/pharmacokinetics,1.0
+Erythromycin/blood,1.0
+Akathisia,1.0
+Eleutherococcus/immunology,1.0
+Nicardipine/blood,1.0
+Norpregnenes/administration & dosage,1.0
+Sincalide/pharmacology,1.0
+Diabetes Mellitus/therapy,1.0
+Steroid Hydroxylases/drug effects,1.0
+Flunitrazepam/blood,1.0
+Vasodilator Agents/pharmacokinetics,1.0
+Xanthines/urine,1.0
+Magnesium Hydroxide/pharmacology,1.0
+Hand/blood supply,1.0
+Asian Continental Ancestry Group,1.0
+Vitamin K/physiology,1.0
+Ketoconazole/blood,1.0
+N-Demethylating/biosynthesis,1.0
+Neoplasms/surgery,1.0
+Pancreatitis/etiology,1.0
+Short Bowel Syndrome/therapy,1.0
+Nitrogen Mustard Compounds/pharmacokinetics,1.0
+Capillary,1.0
+Hormonal/administration & dosage,1.0
+Oxygen Consumption/drug effects,1.0
+Ephedra sinica,1.0
+Autonomic Nervous System Diseases/complications,1.0
+Muscarine/poisoning,1.0
+Environmental/adverse effects,1.0
+Isometric Contraction/drug effects,1.0
+HIV Protease Inhibitors/pharmacology,1.0
+Alcoholic Intoxication/psychology,1.0
+Cyclic AMP/physiology,1.0
+Metronidazole/administration & dosage,1.0
+Mushroom Poisoning/complications,1.0
+Furocoumarins/adverse effects,1.0
+Methadone/pharmacokinetics,1.0
+Nephrotic Syndrome/complications,1.0
+Hydroxyindoleacetic Acid/urine,1.0
+Erythrocyte Count,1.0
+Automobile Driving/psychology,1.0
+Thiazoles/pharmacokinetics,1.0
+Pyridines/blood,1.0
+Ischemia/diagnosis,1.0
+Hydrocortisone/analogs & derivatives,1.0
+Agoraphobia/drug therapy,1.0
+Estramustine/pharmacokinetics,1.0
+Piperazines/metabolism,1.0
+Lovastatin/administration & dosage,1.0
+Moclobemide/administration & dosage,1.0
+Diastole/drug effects,1.0
+Acne Vulgaris/drug therapy,1.0
+Sublingual,1.0
+Breast Neoplasms/drug therapy,1.0
+Aza Compounds/administration & dosage,1.0
+Intravenous/pharmacology,1.0
+Vaginal Diseases/chemically induced,1.0
+Sulfonamides/administration & dosage,1.0
+Zea mays,1.0
+Drug Combinations/metabolism,1.0
+New Caledonia/ethnology,1.0
+Gangrene/chemically induced,1.0
+Hemorrhagic Disorders/etiology,1.0
+Aryl Hydrocarbon Hydroxylases/drug effects,1.0
+Pindolol/metabolism,1.0
+Antimalarials/adverse effects,1.0
+Arylamine N-Acetyltransferase/metabolism,1.0
+Antidepressive Agents/blood,1.0
+Bendroflumethiazide/pharmacology,1.0
+Carcinogens/pharmacokinetics,1.0
+Benzophenones/administration & dosage,1.0
+Diabetes Mellitus/drug therapy,1.0
+Herb-Drug Interactions/physiology,1.0
+Caffeine/antagonists & inhibitors,1.0
+Cytochrome P-450 Enzyme System/analysis,1.0
+Indinavir/administration & dosage,1.0
+Dietary Sucrose,1.0
+Cycloserine/adverse effects,1.0
+Saquinavir/adverse effects,1.0
+Hydroxylation,1.0
+Cerebral Hemorrhage,1.0
+Monoamine Oxidase Inhibitors/blood,1.0
+Fatigue/chemically induced,1.0
+Vitamin K/analogs & derivatives,1.0
+Morphine/antagonists & inhibitors,1.0
+Pancreas Transplantation,1.0
+Seaweed/chemistry,1.0
+Atenolol/urine,1.0
+Soybeans/analysis,1.0
+Oxazines/urine,1.0
+Premenopause,1.0
+Abscess/therapy,1.0
+Gastric Acid/physiology,1.0
+Pyrroles/blood,1.0
+HIV Protease Inhibitors/administration & dosage,1.0
+Hallux Valgus/surgery,1.0
+Hemostatics/pharmacokinetics,1.0
+Cognition/drug effects,1.0
+Diuretics/metabolism,1.0
+Hypnotics and Sedatives/therapeutic use,1.0
+Antifibrinolytic Agents/analysis,1.0
+Cytochrome P-450 Enzyme System/genetics,1.0
+Eggs/adverse effects,1.0
+Coronary Disease/diagnostic imaging,1.0
+Diltiazem/analogs & derivatives,1.0
+Sulfones,1.0
+Proguanil/administration & dosage,1.0
+Lovastatin/pharmacology,1.0
+Hyphema/chemically induced,1.0
+Amlodipine/administration & dosage,1.0
+Mixed Function Oxygenases/pharmacology,1.0
+Flunitrazepam/administration & dosage,1.0
+Medicinal/analysis,1.0
+Ginkgo biloba/therapeutic use,1.0
+Medical,1.0
+Gastric Acid,1.0
+MEDLINE,1.0
+Intestines/metabolism,1.0
+PUVA Therapy/adverse effects,1.0
+Troleandomycin/pharmacology,1.0
+HIV Seropositivity/metabolism,1.0
+Cyclodextrins,1.0
+Cocaine/analogs & derivatives,1.0
+HIV Infections/drug therapy,1.0
+Midazolam/metabolism,1.0
+Acetaminophen/poisoning,1.0
+Intestinal Mucosa/enzymology,1.0
+Pyrimidines/pharmacokinetics,1.0
+Soybeans/chemistry,1.0
+Vegetables/adverse effects,1.0
+Rheumatoid/drug therapy,1.0
+Anticoagulants/antagonists & inhibitors,1.0
+Lactates/blood,1.0
+Serotonin Uptake Inhibitors/pharmacokinetics,1.0
+Enterocytes/drug effects,1.0
+Non-Steroidal/blood,1.0
+Sesquiterpenes/metabolism,1.0
+Meat/analysis,1.0
+Autonomic Nervous System Diseases/diagnosis,1.0
+Leg/innervation,1.0
+Food Analysis/statistics & numerical data,1.0
+Phenprocoumon/therapeutic use,1.0
+Hypoglycemia/blood,1.0
+Oxazoles/pharmacology,1.0
+GABA Modulators/pharmacokinetics,1.0
+Seafood,1.0
+Apocynaceae/chemistry,1.0
+MDR,1.0
+Celiprolol/administration & dosage,1.0
+Essential/administration & dosage,1.0
+Praziquantel/blood,1.0
+Alcohol Drinking/blood,1.0
+Sample Size,1.0
+Mannans/pharmacology,1.0
+Tetracyclines,1.0
+Cerebral Hemorrhage/drug therapy,1.0
+Falciparum/drug therapy,1.0
+Malus,1.0
+Cilazapril,1.0
+Penicillin V/metabolism,1.0
+Graft Rejection/chemically induced,1.0
+Praziquantel/administration & dosage,1.0
+Small/metabolism,1.0
+Crohn Disease/complications,1.0
+Anti-Infective Agents/metabolism,1.0
+Aspirin/therapeutic use,1.0
+Amino Acids/administration & dosage,1.0
+Nifedipine/metabolism,1.0
+Enzyme Inhibitors/analysis,1.0
+Prostaglandins E/pharmacology,1.0
+Peptidyl-Dipeptidase A/blood,1.0
+Enterotoxins/isolation & purification,1.0
+Pectins/adverse effects,1.0
+Kaolin/metabolism,1.0
+AIDS-Related Opportunistic Infections/metabolism,1.0
+Quinidine/pharmacology,1.0
+Appetitive Behavior/drug effects,1.0
+Jejunum/physiology,1.0
+Anemia/blood,1.0
+Alcoholic Intoxication/drug therapy,1.0
+Pargyline/adverse effects,1.0
+Penicillins/administration & dosage,1.0
+Catecholamines/urine,1.0
+Dipyridamole/pharmacology,1.0
+Vitamin K Deficiency/metabolism,1.0
+Myocardial Infarction/chemically induced,1.0
+Proguanil/adverse effects,1.0
+Vitamin K 1/adverse effects,1.0
+Digitoxin/blood,1.0
+Dicumarol/blood,1.0
+Postoperative Hemorrhage/chemically induced,1.0
+Ethanolamines/administration & dosage,1.0
+Nephrotic Syndrome/therapy,1.0
+Sulfamethazine/administration & dosage,1.0
+Chemical and Drug Induced Liver Injury/etiology,1.0
+Valerian/therapeutic use,1.0
+Phenprocoumon/pharmacology,1.0
+Acids/blood,1.0
+Staphylococcal Food Poisoning/prevention & control,1.0
+Aza Compounds/pharmacokinetics,1.0
+Phenethylamines/adverse effects,1.0
+Digoxin/pharmacology,1.0
+Nimodipine/blood,1.0
+Ergotism/drug therapy,1.0
+Drug Overdose/complications,1.0
+Natriuresis/drug effects,1.0
+Monoamine Oxidase Inhibitors/antagonists & inhibitors,1.0
+Membrane Transport Proteins,1.0
+Hematologic/drug therapy,1.0
+Pyrazoles/metabolism,1.0
+Nevirapine/blood,1.0
+Quinidine/blood,1.0
+Glycyrrhiza,1.0
+Pyridazines/pharmacology,1.0
+Moclobemide/blood,1.0
+Oxazepam/metabolism,1.0
+Theobromine/toxicity,1.0
+Antihypertensive Agents/adverse effects,1.0
+Tricyclic/therapeutic use,1.0
+Benzodiazepines/antagonists & inhibitors,1.0
+Dipyridamole,1.0
+Warfarin/urine,1.0
+Platelet Aggregation Inhibitors/blood,1.0
+Miocamycin/pharmacology,1.0
+Lysine/pharmacokinetics,1.0
+Gallic Acid,1.0
+Analgesics/adverse effects,1.0
+Kava/metabolism,1.0
+Creatinine/urine,1.0
+Digitalis,1.0
+Echinacea/chemistry,1.0
+Gallbladder/anatomy & histology,1.0
+Antidepressive Agents/chemistry,1.0
+Amiodarone/pharmacokinetics,1.0
+Anticholesteremic Agents/adverse effects,1.0
+GABA-A,1.0
+Heart Block/chemically induced,1.0
+Venous Thrombosis/drug therapy,1.0
+Tartrates,1.0
+Cyclopropanes/isolation & purification,1.0
+Fibrinolytic Agents/adverse effects,1.0
+Mastitis/drug therapy,1.0
+Ethanolamines/metabolism,1.0
+Antitubercular/pharmacokinetics,1.0
+Flavonoids/urine,1.0
+Orthostatic/metabolism,1.0
+Sulfides/pharmacology,1.0
+Acenocoumarol/therapeutic use,1.0
+Dietary Carbohydrates/administration & dosage,1.0
+Fabaceae,1.0
+Antiemetics/pharmacology,1.0
+Aryl Hydrocarbon Hydroxylases/pharmacology,1.0
+Sodium-Dependent,1.0
+Clavulanic Acids/blood,1.0
+Anxiety/chemically induced,1.0
+Hydrastis/chemistry,1.0
+Vascular/physiology,1.0
+Flurazepam/pharmacology,1.0
+Cycloserine/pharmacokinetics,1.0
+Voriconazole,1.0
+Phobic Disorders/drug therapy,1.0
+Dietary Sucrose/pharmacology,1.0
+Visual/drug effects,1.0
+Cloxacillin/pharmacokinetics,1.0
+Intestines/drug effects,1.0
+Nutrition Disorders/metabolism,1.0
+Pyridines/adverse effects,1.0
+Mass,1.0
+Oxazolidinones,1.0
+Antitussive Agents/metabolism,1.0
+Serotonin/adverse effects,1.0
+Alcohol Drinking/genetics,1.0
+Infant Nutritional Physiological Phenomena,1.0
+Papaver/chemistry,1.0
+Hong Kong,1.0
+Naproxen/therapeutic use,1.0
+Dihydroergotamine/metabolism,1.0
+Chronic/etiology,1.0
+Plant Extracts/immunology,1.0
+Sodium Glutamate/adverse effects,1.0
+Dihydroergotamine/therapeutic use,1.0
+Orthopedic Procedures,1.0
+Anticholesteremic Agents/administration & dosage,1.0
+Simvastatin/metabolism,1.0
+Enterocytes/enzymology,1.0
+Terpenes/analysis,1.0
+Cardiac/chemically induced,1.0
+Immunoblotting/methods,1.0
+Felodipine/therapeutic use,1.0
+Ritonavir/pharmacokinetics,1.0
+Nitric Oxide/physiology,1.0
+Terfenadine/antagonists & inhibitors,1.0
+Central Nervous System Stimulants/urine,1.0
+Methylprednisolone/blood,1.0
+Prostatectomy,1.0
+Saliva/analysis,1.0
+Vitamin K 1/blood,1.0
+Ibuprofen/analogs & derivatives,1.0
+Amiodarone/analogs & derivatives,1.0
+Pyridazines/blood,1.0
+Methoxsalen/blood,1.0
+Depression/therapy,1.0
+Nonprescription Drugs,1.0
+Opioid/analysis,1.0
+Rifampin/metabolism,1.0
+HIV Infections/therapy,1.0
+Drug Therapy/veterinary,1.0
+Simvastatin/adverse effects,1.0
+Methyl Ethers/adverse effects,1.0
+Theophylline/pharmacology,1.0
+Jejunostomy/methods,1.0
+Antitubercular/pharmacology,1.0
+Alcoholic Intoxication/blood,1.0
+Foodborne Diseases/diagnosis,1.0
+Naproxen/pharmacology,1.0
+Vegetables/chemistry,1.0
+Heart/diagnostic imaging,1.0
+Chemical Fractionation,1.0
+Cellulose/pharmacology,1.0
+Echinacea,1.0
+Trigonella,1.0
+Ketoprofen/analogs & derivatives,1.0
+Dried/therapeutic use,1.0
+Celiprolol/antagonists & inhibitors,1.0
+Essential/deficiency,1.0
+Ergotamine,1.0
+Amoxicillin/adverse effects,1.0
+Dihydroxyphenylalanine,1.0
+Chest Pain/chemically induced,1.0
+Achlorhydria/metabolism,1.0
+Phenothiazines,1.0
+Sulfoxides/blood,1.0
+Amine Oxidase (Copper-Containing)/antagonists & inhibitors,1.0
+Tricyclic/blood,1.0
+Spinal,1.0
+Poisoning/therapy,1.0
+Fluorenes/therapeutic use,1.0
+PUVA Therapy,1.0
+Quinolones/pharmacokinetics,1.0
+Violence/legislation & jurisprudence,1.0
+Estrone/pharmacokinetics,1.0
+Prednisolone/administration & dosage,1.0
+Pain Management,1.0
+Dextromethorphan/metabolism,1.0
+Discrimination (Psychology)/drug effects,1.0
+Labetalol/pharmacology,1.0
+Aluminum/administration & dosage,1.0
+Omeprazole/administration & dosage,1.0
+Carbadox/toxicity,1.0
+Piperazines/antagonists & inhibitors,1.0
+Antiviral Agents/pharmacokinetics,1.0
+Medicinal/therapeutic use,1.0
+Human/metabolism,1.0
+Dipeptides/urine,1.0
+Aspartame/adverse effects,1.0
+Pharmacists,1.0
+Member 1/physiology,1.0
+Clozapine/metabolism,1.0
+International Normalized Ratio/adverse effects,1.0
+Benzamides/therapeutic use,1.0
+Aminophylline/pharmacokinetics,1.0
+Meperidine/administration & dosage,1.0
+Cranial/etiology,1.0
+Heart Valve Prosthesis/adverse effects,1.0
+Coumarins/analysis,1.0
+Duodenum/drug effects,1.0
+Losartan/pharmacokinetics,1.0
+Antipsychotic Agents/metabolism,1.0
+Temperament/drug effects,1.0
+Central/pharmacology,1.0
+Quinidine/analogs & derivatives,1.0
+Anti-Anxiety Agents/antagonists & inhibitors,1.0
+Dermatomycoses/metabolism,1.0
+Hymecromone/analogs & derivatives,1.0
+Cluster Headache/drug therapy,1.0
+Gastric Emptying,1.0
+Infectious/drug therapy,1.0
+Haloperidol/therapeutic use,1.0
+Pericardium,1.0
+Cimicifuga/adverse effects,1.0
+Eleutherococcus/metabolism,1.0
+Propanolamines/urine,1.0
+Vasodilator Agents/blood,1.0
+C-Reactive Protein/metabolism,1.0
+Demeclocycline,1.0
+Serotonin Uptake Inhibitors/pharmacology,1.0
+Thyroxine/pharmacokinetics,1.0
+Cimicifuga/chemistry,1.0
+Medicinal/chemistry,1.0
+Mixed Function Oxygenases/biosynthesis,1.0
+Clavulanic Acids/administration & dosage,1.0
+Bronchial Spasm/chemically induced,1.0
+Steroid Hydroxylases/metabolism,1.0
+Carbamazepine/poisoning,1.0
+Operative,1.0
+Carbamazepine/analogs & derivatives,1.0
+AIDS-Related Opportunistic Infections/prevention & control,1.0
+Arterial Occlusive Diseases/chemically induced,1.0
+Quinidine/metabolism,1.0
+Electroencephalography/drug effects,1.0
+Pargyline/pharmacology,1.0
+Iproniazid,1.0
+Dipeptides/adverse effects,1.0
+Heart Conduction System/drug effects,1.0
+Morinda/adverse effects,1.0
+Calcium Carbonate/adverse effects,1.0
+Citrus paradisi/adverse effects,1.0
+Clopamide/pharmacology,1.0
+Pefloxacin/pharmacology,1.0
+Serotonin Syndrome/etiology,1.0
+Antiprotozoal Agents/administration & dosage,1.0
+Soybeans/adverse effects,1.0
+Metoprolol/blood,1.0
+Lung Neoplasms/prevention & control,1.0
+Indomethacin/blood,1.0
+Angiotensin-Converting Enzyme Inhibitors,1.0
+Biological Transport/physiology,1.0
+Ginger/chemistry,1.0
+Ergotamine/pharmacology,1.0
+Urine,1.0
+Midazolam/antagonists & inhibitors,1.0
+Phytotherapy/utilization,1.0
+Platelet Aggregation Inhibitors/analysis,1.0
+Fentanyl/pharmacokinetics,1.0
+Estradiol/analogs & derivatives,1.0
+Anesthesia Recovery Period,1.0
+Immunosuppressive Agents/therapeutic use,1.0
+Osteoarthritis/therapy,1.0
+Reflex/drug effects,1.0
+Central Nervous System Stimulants,1.0
+Dietary Carbohydrates,1.0
+Pneumonia/drug therapy,1.0
+Eggs,1.0
+Captopril/administration & dosage,1.0
+Nitroprusside/therapeutic use,1.0
+Haloperidol/blood,1.0
+Food/classification,1.0
+Antipsychotic Agents/pharmacokinetics,1.0
+Dietary Proteins/administration & dosage,1.0
+Self Care/methods,1.0
+Cytochrome P-450 Enzyme System/blood,1.0
+Calcium Carbonate/pharmacology,1.0
+Thiazines/adverse effects,1.0
+Tranquilizing Agents/pharmacology,1.0
+Cloxacillin/urine,1.0
+Magnesium Hydroxide/pharmacokinetics,1.0
+Anti-Ulcer Agents/adverse effects,1.0
+Perindopril,1.0
+Vitamins/adverse effects,1.0
+Embolism/prevention & control,1.0
+Excipients/chemistry,1.0
+Androgen Antagonists/administration & dosage,1.0
+Aldosterone/blood,1.0
+Bromobenzenes/administration & dosage,1.0
+Ketoprofen/toxicity,1.0
+Cytochrome P-450 CYP1A2/drug effects,1.0
+Tetrahydroisoquinolines,1.0
+Hypoglycemic Agents/pharmacokinetics,1.0
+Ibuprofen/chemistry,1.0
+Nausea/chemically induced,1.0
+Constipation/drug therapy,1.0
+Shock/chemically induced,1.0
+Headache/complications,1.0
+Sulfonamides/pharmacokinetics,1.0
+Hypoglycemic Agents/blood,1.0
+Lanatosides/adverse effects,1.0
+Blood Glucose/antagonists & inhibitors,1.0
+Oxidoreductases/metabolism,1.0
+Autoimmune Diseases/metabolism,1.0
+Valerian/metabolism,1.0
+Amiodarone/blood,1.0
+Aluminum Hydroxide/metabolism,1.0
+Azathioprine/blood,1.0
+Spontaneous,1.0
+Propranolol/administration & dosage,1.0
+Uterine Cervicitis/drug therapy,1.0
+Glycosides/blood,1.0
+Beverages/poisoning,1.0
+Melatonin/blood,1.0
+Neurocognitive Disorders/complications,1.0
+Urodynamics/drug effects,1.0
+Perylene/blood,1.0
+Methoxsalen/analysis,1.0
+Quinidine/urine,1.0
+Ergot Alkaloids/adverse effects,1.0
+Ofloxacin/pharmacology,1.0
+Intravenous/administration & dosage,1.0
+HIV Protease Inhibitors/metabolism,1.0
+Chelating Agents/pharmacology,1.0
+Doxycycline/pharmacokinetics,1.0
+Neuritis/etiology,1.0
+Cardiovascular Diseases/chemically induced,1.0
+Methadone/blood,1.0
+Central Nervous System Stimulants/antagonists & inhibitors,1.0
+Muscarine/isolation & purification,1.0
+Sincalide/administration & dosage,1.0
+Punicaceae,1.0
+Tabernaemontana,1.0
+Estrogen Replacement Therapy/adverse effects,1.0
+Ketoconazole/administration & dosage,1.0
+Aspirin/pharmacokinetics,1.0
+Graft Rejection/immunology,1.0
+Immediate,1.0
+Hypericum/metabolism,1.0
+Pharmaceutic Aids,1.0
+Levodopa/pharmacokinetics,1.0
+Newborn,1.0
+Orthostatic/etiology,1.0
+Jejunum/drug effects,1.0
+Nitrendipine/pharmacokinetics,1.0
+Flunitrazepam,1.0
+Ciprofloxacin/analysis,1.0
+Hematuria/etiology,1.0
+Antitubercular/adverse effects,1.0
+Duodenum/enzymology,1.0
+Self Medication/adverse effects,1.0
+Ascorbic Acid/pharmacokinetics,1.0
+Imipramine,1.0
+Dermatomycoses/drug therapy,1.0
+Nitroglycerin/pharmacology,1.0
+Subdural/etiology,1.0
+Demeclocycline/metabolism,1.0
+Phototoxic/pathology,1.0
+Lisinopril,1.0
+Hydroxylation/drug effects,1.0
+Ergotamine/metabolism,1.0
+Hemorrhage/chemically induced,1.0
+Dextropropoxyphene/adverse effects,1.0
+Sodium Chloride/therapeutic use,1.0
+Antifungal Agents/antagonists & inhibitors,1.0
+Pyridazines/urine,1.0
+Diclofenac/pharmacology,1.0
+Dextromethorphan/administration & dosage,1.0
+Mushroom Poisoning,1.0
+Bisacodyl/adverse effects,1.0
+Cyclopropanes/chemical synthesis,1.0
+Menopause/metabolism,1.0
+Achlorhydria/chemically induced,1.0
+Labetalol/metabolism,1.0
+Cucurbitaceae,1.0
+Pneumonia/complications,1.0
+Jejunostomy/adverse effects,1.0
+Enalapril/blood,1.0
+Panax/immunology,1.0
+Atenolol/pharmacokinetics,1.0
+Blood Coagulation Disorders/etiology,1.0
+Probenecid/pharmacology,1.0
+Behavior Control/psychology,1.0
+Adrenergic,1.0
+Sleep Initiation and Maintenance Disorders/chemically induced,1.0
+Estradiol/pharmacokinetics,1.0
+Serotonin/administration & dosage,1.0
+Verapamil/adverse effects,1.0
+International Normalized Ratio/statistics & numerical data,1.0
+Dietary Sucrose/blood,1.0
+Ethanolamines/pharmacokinetics,1.0
+Monoamine Oxidase Inhibitors/poisoning,1.0
+Antiprotozoal Agents/pharmacokinetics,1.0
+Diarrhea/chemically induced,1.0
+Digoxin/immunology,1.0
+Analgesics/pharmacokinetics,1.0
+Furocoumarins/administration & dosage,1.0
+Association Learning/drug effects,1.0
+Heparin/blood,1.0
+Vomiting/chemically induced,1.0
+Valerian/chemistry,1.0
+Bisacodyl/pharmacology,1.0
+Thoracic/metabolism,1.0
+Ginkgo biloba/metabolism,1.0
+General,1.0
+Pyrazoles/pharmacokinetics,1.0
+Blood Pressure Monitoring,1.0
+Tromethamine/pharmacology,1.0
+Metrorrhagia/therapy,1.0
+Chlortetracycline/analogs & derivatives,1.0
+Nelfinavir/therapeutic use,1.0
+Atrophic/prevention & control,1.0
+Thoracic/drug effects,1.0
+Intracranial/diagnosis,1.0
+Hypochromic/etiology,1.0
+Fleroxacin/urine,1.0
+Cytochrome P-450 Enzyme System/immunology,1.0
+Cephalexin/administration & dosage,1.0
+Aza Compounds/blood,1.0
+Disulfiram/analysis,1.0
+Chinese Herbal,1.0
+Anti-Obesity Agents/therapeutic use,1.0
+Diuresis,1.0
+Histamine H2 Antagonists/therapeutic use,1.0
+Anticonvulsants/pharmacology,1.0
+Indocyanine Green/metabolism,1.0
+Symporters,1.0
+Citrus aurantiifolia/metabolism,1.0
+Benzodiazepinones/administration & dosage,1.0
+Central Nervous System/drug effects,1.0
+Plant Poisoning/complications,1.0
+Antifibrinolytic Agents/blood,1.0
+Animal,1.0
+Atenolol/metabolism,1.0
+Benzophenones/therapeutic use,1.0
+Urea/blood,1.0
+Thrombocytopenia/drug therapy,1.0
+Behavior Therapy,1.0
+Antioxidants/pharmacokinetics,1.0
+Soybean Proteins/pharmacology,1.0
+Heart Valve Prosthesis Implantation,1.0
+Water/pharmacology,1.0
+Fluconazole/administration & dosage,1.0
+Quinolines/administration & dosage,1.0
+Enteric-Coated,1.0
+Nonprescription Drugs/adverse effects,1.0
+Anxiety/therapy,1.0
+Fasting/adverse effects,1.0
+Lithium/administration & dosage,1.0
+Enalapril/pharmacokinetics,1.0
+Plant Oils,1.0
+Cocaine/pharmacology,1.0
+Dipeptides/metabolism,1.0
+Substance-Related Disorders/blood,1.0
+Pyridines/pharmacokinetics,1.0
+Ofloxacin/analysis,1.0
+Pyrimidines/administration & dosage,1.0
+Pupil/drug effects,1.0
+Factual,1.0
+Albendazole/blood,1.0
+Type 2/blood,1.0
+Disease,1.0
+Triazoles/administration & dosage,1.0
+Mouth Mucosa/metabolism,1.0
+Adrenergic Agents/pharmacokinetics,1.0
+Oxazoles/pharmacokinetics,1.0
+Trifluoperazine/pharmacology,1.0
+Tolbutamide/blood,1.0
+Magnesium Chloride,1.0
+Encephalitis/chemically induced,1.0
+Ergot Alkaloids/therapeutic use,1.0
+Anaphylaxis/diagnosis,1.0
+Tongue/blood supply,1.0
+Sulfoxides/metabolism,1.0
+Tetracycline,1.0
+Non-Narcotic/metabolism,1.0
+Cefuroxime/metabolism,1.0
+Dried/pharmacology,1.0
+Oxazines/blood,1.0
+Obesity/drug therapy,1.0
+Toxic,1.0
+Galactans/pharmacology,1.0
+Indinavir/pharmacology,1.0
+Dietary Proteins,1.0
+Digoxin/adverse effects,1.0
+Isothiocyanates/metabolism,1.0
+Multidrug-Resistant/drug therapy,1.0
+Methadone/administration & dosage,1.0
+Ethanol/administration & dosage,1.0
+Pressoreceptors/drug effects,1.0
+Pulse,1.0
+Self-Assessment,1.0
+Oxazepam/urine,1.0
+Fortified/analysis,1.0
+Lung Diseases/blood,1.0
+Celecoxib,1.0
+Serotonin Receptor Agonists/administration & dosage,1.0
+Menstrual Cycle/physiology,1.0
+Postoperative/drug therapy,1.0
+Nicardipine/chemistry,1.0
+Hypericum/physiology,1.0
+Sulfamethoxazole Drug Combination/pharmacokinetics,1.0
+Pueraria,1.0
+Reference Values,1.0285714285714285
+Liver/metabolism,1.125
+Gas Chromatography-Mass Spectrometry,1.2
+Anti-Bacterial Agents/administration & dosage,1.2
+Creatinine/blood,1.2
+Double-Blind Method,1.303030303030303
+Fat Emulsions,1.3333333333333333
+Plants,1.4814814814814814
+Fasting/metabolism,1.5
+Alcohol Drinking,1.5
+Drinking,1.5
+Gastric Acidity Determination,1.5
+Fasting/blood,1.5
+Drug Tolerance,1.5
+Critical Illness,1.5
+Antipsychotic Agents/adverse effects,1.5
+Blood Coagulation,1.5
+Kidney Transplantation/physiology,1.5
+Bleeding Time,1.5
+Benzamides/pharmacology,1.5
+Microsomes,1.5454545454545454
+ATP-Binding Cassette,1.5555555555555556
+Dietary Supplements,1.5714285714285714
+Hemodynamics/drug effects,1.5714285714285714
+Parenteral Nutrition,1.6666666666666667
+Placebos,1.6666666666666667
+Milk,1.7
+Liver/enzymology,1.75
+Drug Combinations,1.7692307692307692
+Absorption,1.8333333333333333
+Administration,1.8928571428571428
+Arteriosclerosis Obliterans/physiopathology,2.0
+Cyclosporins/pharmacokinetics,2.0
+Oximes/metabolism,2.0
+Antacids/pharmacokinetics,2.0
+Oxidoreductases/antagonists & inhibitors,2.0
+Angiotensin-Converting Enzyme Inhibitors/pharmacology,2.0
+Dipyridamole/adverse effects,2.0
+Agaricales/analysis,2.0
+Citrus/adverse effects,2.0
+Glycyrrhizic Acid,2.0
+Water/administration & dosage,2.0
+Panax/chemistry,2.0
+Oxygen,2.0
+Duodenum/metabolism,2.0
+Pregnancy Complications/diagnosis,2.0
+Messenger/genetics,2.0
+Ergotamine/poisoning,2.0
+Leg/blood supply,2.0
+Methoxsalen/analogs & derivatives,2.0
+Benzodiazepines/metabolism,2.0
+Protein Binding/drug effects,2.0
+Thrombosis/drug therapy,2.0
+Sulfates,2.0
+Hypercalcemia/etiology,2.0
+Cephalosporins/administration & dosage,2.0
+Gastroesophageal Reflux/drug therapy,2.0
+Environmental Pollutants/poisoning,2.0
+Serenoa,2.0
+Oxazines/pharmacology,2.0
+Organic Anion Transporters/metabolism,2.0
+Dried/adverse effects,2.0
+Serotonin Receptor Agonists/adverse effects,2.0
+Sesquiterpenes/blood,2.0
+Antifibrinolytic Agents,2.0
+Methysergide/therapeutic use,2.0
+Environmental Pollutants/chemistry,2.0
+Pyridines/metabolism,2.0
+Fluoxetine/pharmacokinetics,2.0
+Caco-2 Cells/metabolism,2.0
+Ethinyl Estradiol/blood,2.0
+Alprazolam/pharmacology,2.0
+Anticholesteremic Agents/blood,2.0
+Non-Steroidal/administration & dosage,2.0
+Retinoids,2.0
+Lovastatin/blood,2.0
+Indinavir/pharmacokinetics,2.0
+Hyperlipoproteinemia Type II/diet therapy,2.0
+Non-Narcotic/chemistry,2.0
+Central Nervous System Stimulants/adverse effects,2.0
+Aluminum/urine,2.0
+Benzodiazepines/blood,2.0
+Intravenous/adverse effects,2.0
+Postoperative Hemorrhage/etiology,2.0
+Antitubercular Agents/pharmacokinetics,2.0
+Pharyngitis/complications,2.0
+Diltiazem/pharmacology,2.0
+Phytotherapy/methods,2.0
+Anticonvulsants/administration & dosage,2.0
+Ciprofloxacin/urine,2.0
+Buspirone/adverse effects,2.0
+Digoxin/therapeutic use,2.0
+Nisoldipine/blood,2.0
+Rhabdomyolysis/etiology,2.0
+Pharyngitis/drug therapy,2.0
+Kava,2.0
+Agaricales/pathogenicity,2.0
+Azithromycin,2.0
+Coprinus/analysis,2.0
+Prednisolone/analogs & derivatives,2.0
+Thiabendazole/pharmacology,2.0
+Hypnotics and Sedatives/administration & dosage,2.0
+Rifampin/urine,2.0
+Propanolamines/blood,2.0
+Nutrition Policy,2.0
+Tuberculosis/drug therapy,2.0
+Simvastatin/analogs & derivatives,2.0
+Enalapril/analogs & derivatives,2.0
+Anti-HIV Agents/adverse effects,2.0
+Thiazines/blood,2.0
+Dietary Proteins/adverse effects,2.0
+Reducing,2.0
+Ergotamines/therapeutic use,2.0
+Nephritis,2.0
+Chronic/metabolism,2.0
+Central Nervous System Depressants/pharmacokinetics,2.0
+Vitamin K,2.0
+Anti-Bacterial Agents/metabolism,2.0
+Dietary Fiber/administration & dosage,2.0
+Xanthines/metabolism,2.0
+Acetates/pharmacokinetics,2.0
+Amoxicillin/blood,2.0
+Captopril/metabolism,2.0
+Dietary Fats/adverse effects,2.0
+Extracellular Fluid/metabolism,2.0
+Schizophrenic Psychology,2.0
+Member 1/drug effects,2.0
+Ketoconazole/analogs & derivatives,2.0
+Kidney Diseases/chemically induced,2.0
+2-Pyridinylmethylsulfinylbenzimidazoles,2.0
+Antiviral Agents/administration & dosage,2.0
+Amines,2.0
+HIV Protease Inhibitors/blood,2.0
+Vitamin K/pharmacokinetics,2.0
+Pectins/pharmacology,2.0
+Small/drug effects,2.0
+Vitis,2.0
+Acetaminophen/analogs & derivatives,2.0
+Piroxicam/pharmacokinetics,2.0
+Smoking/metabolism,2.0
+Tuna,2.0
+Phenytoin/therapeutic use,2.0
+Ofloxacin/administration & dosage,2.0
+Fentanyl/administration & dosage,2.0
+Aryl Hydrocarbon Hydroxylases/blood,2.0
+Hydrocortisone/urine,2.0
+Fluconazole/blood,2.0
+Gastrointestinal/adverse effects,2.0
+Phenylpropanolamine/administration & dosage,2.0
+Skeletal/metabolism,2.0
+Phenylpropanolamine/pharmacology,2.0
+Tyramine/blood,2.0
+Plant Extracts/isolation & purification,2.0
+Radiation-Sensitizing Agents/pharmacology,2.0
+Chinese Herbal/administration & dosage,2.0
+Poultry,2.0
+Environmental Pollutants/metabolism,2.0
+Agaricales/chemistry,2.0
+Antimalarials/administration & dosage,2.0
+Clarithromycin/pharmacokinetics,2.0
+Polychlorinated Biphenyls/chemistry,2.0
+beta-Cyclodextrins,2.0
+Polychlorinated Biphenyls/metabolism,2.0
+Celiprolol/blood,2.0
+Platelet Aggregation Inhibitors/therapeutic use,2.0
+Tremor/chemically induced,2.0
+Thiabendazole/metabolism,2.0
+Ephedrine/administration & dosage,2.0
+Hypnotics and Sedatives/metabolism,2.0
+Sodium Bicarbonate/therapeutic use,2.0
+Ergotism/complications,2.0
+Heparin/administration & dosage,2.0
+Sodium-Independent/genetics,2.0
+Vasodilator Agents/therapeutic use,2.0
+Sodium Bicarbonate/administration & dosage,2.0
+Hydralazine/metabolism,2.0
+Kampo,2.0
+Omeprazole/pharmacokinetics,2.0
+Captopril/urine,2.0
+Citrates/pharmacokinetics,2.0
+Dietary Supplements/analysis,2.0
+Sarcoidosis,2.0
+Uric Acid/analogs & derivatives,2.0
+Aluminum/poisoning,2.0
+Matricaria/adverse effects,2.0
+Tranylcypromine,2.0
+Xanthine Oxidase/metabolism,2.0
+Vasoconstrictor Agents/pharmacology,2.0
+Aluminum/toxicity,2.0
+Sulfonamides/therapeutic use,2.0
+Histamine H1 Antagonists/blood,2.0
+Acetaminophen/chemistry,2.0
+Amoxicillin/urine,2.0
+Mixed Function Oxygenases/genetics,2.0
+Nitriles/metabolism,2.0
+Organic Anion Transporters/genetics,2.0
+Verapamil/blood,2.0
+Propranolol/blood,2.0
+Kidney Transplantation/immunology,2.0
+Acebutolol/analogs & derivatives,2.0
+Cytochrome P-450 CYP1A2/genetics,2.0
+Quinine,2.0
+Hormonal/pharmacology,2.0
+Headache/drug therapy,2.0
+Ethinyl Estradiol/administration & dosage,2.0
+Ergotamines/adverse effects,2.0
+Pyrimidines/therapeutic use,2.0
+Theophylline/adverse effects,2.0
+Kava/chemistry,2.0
+Citrates/adverse effects,2.0
+Serotonin Syndrome/psychology,2.0
+Ketoconazole/metabolism,2.0
+Methysergide/adverse effects,2.0
+Cyclosporine/pharmacology,2.0
+Clozapine/administration & dosage,2.0
+Antinematodal Agents/pharmacology,2.0
+Vegetarian,2.0
+Biometry,2.0
+Drugs,2.0
+Spinacia oleracea,2.0
+Dietary Fats,2.0
+High Pressure Liquid/methods,2.0
+Anti-Allergic Agents/pharmacokinetics,2.0
+Clozapine/therapeutic use,2.0
+Aluminum Hydroxide/pharmacokinetics,2.0
+Sodium Bicarbonate/chemistry,2.0
+Midazolam/pharmacology,2.0
+Sesquiterpenes/pharmacokinetics,2.0
+Non-Steroidal/adverse effects,2.0
+Triazolam/metabolism,2.0
+Dietary Fats/pharmacokinetics,2.0
+Subarachnoid Hemorrhage/chemically induced,2.0
+Glycyrrhetinic Acid/analogs & derivatives,2.0
+Hydrastis,2.0
+Quinine/pharmacology,2.0
+Antipsychotic Agents,2.0
+Intestinal Mucosa/drug effects,2.0
+Artemisinins/pharmacology,2.0
+Analgesia/methods,2.0
+Simvastatin/blood,2.0
+Clarithromycin/administration & dosage,2.0
+Fentanyl/blood,2.0
+Vegetables/analysis,2.0
+Phenanthrolines/adverse effects,2.0
+Erythromycin/pharmacology,2.0
+Vitamin K 1/pharmacokinetics,2.0
+Cytochrome P-450 CYP1A2/physiology,2.0
+Ferrous Compounds/pharmacology,2.0
+Citrus paradisi/chemistry,2.0
+Systole/drug effects,2.0
+Naphthoquinones/blood,2.0
+Second-Generation/adverse effects,2.0
+Iron/pharmacology,2.0
+Alcoholic Beverages/adverse effects,2.0
+Contraceptives,2.0
+Organic Anion Transporters/biosynthesis,2.0
+Dietary Fiber/adverse effects,2.0
+Rosuvastatin Calcium,2.0
+Aminosalicylic Acid/pharmacology,2.0
+Punicaceae/adverse effects,2.0
+Type 2/drug therapy,2.0
+Flavonoids/pharmacokinetics,2.0
+Diltiazem/blood,2.0
+Sodium-Independent/biosynthesis,2.0
+Labetalol/administration & dosage,2.0
+Second-Generation/pharmacokinetics,2.0
+Parenteral,2.0
+Mixed Function Oxygenases/drug effects,2.0
+Sodium Glutamate/pharmacology,2.0
+Oral/adverse effects,2.0
+Fluconazole/pharmacology,2.0
+Propanolamines/pharmacokinetics,2.0
+Plant Extracts,2.0
+Ethinyl Estradiol/pharmacokinetics,2.0
+Enoxacin/pharmacology,2.0
+Dihydroergotamine/blood,2.0
+Glycyrrhetinic Acid/pharmacology,2.0
+Bipolar Disorder/chemically induced,2.0
+Naphthoquinones,2.0
+Tea/chemistry,2.0
+Polychlorinated Biphenyls/poisoning,2.0
+Yogurt,2.0
+Kidney Diseases/metabolism,2.0
+Vitamin K 1/analysis,2.0
+Indinavir/blood,2.0
+Analgesics/pharmacology,2.0
+Verapamil/pharmacology,2.0
+2-Hydroxypropyl-beta-cyclodextrin,2.0
+Propranolol/metabolism,2.0
+Diabetes Mellitus/diet therapy,2.0
+Naphthyridines/administration & dosage,2.0
+Dietary Fiber/metabolism,2.0
+Blood Coagulation Disorders/blood,2.0
+Liquid/methods,2.0
+Oximes/pharmacology,2.0
+Anti-Asthmatic Agents/pharmacokinetics,2.0
+Hydroxymethylglutaryl-CoA Reductase Inhibitors/administration & dosage,2.0
+Lower Extremity/blood supply,2.0
+Herbal Medicine,2.0
+Rifampin/pharmacokinetics,2.0
+Ritonavir/therapeutic use,2.0
+Antipyrine/blood,2.0
+Adverse Drug Reaction Reporting Systems,2.0
+Amoxicillin-Potassium Clavulanate Combination,2.0
+Ketoprofen/administration & dosage,2.0
+Fluoxetine/therapeutic use,2.0
+Naphthyridines/pharmacology,2.0
+Acetamides/pharmacology,2.0
+Felodipine/administration & dosage,2.0
+Moclobemide/pharmacology,2.0
+Calcium/pharmacokinetics,2.0
+Naphthoquinones/adverse effects,2.0
+Central Nervous System Depressants/pharmacology,2.0
+Erythromycin/therapeutic use,2.0
+Rhabdomyolysis/enzymology,2.0
+Atenolol/blood,2.0
+Antiviral Agents/pharmacology,2.0
+Hypoglycemic Agents/therapeutic use,2.0
+Uracil/analogs & derivatives,2.0
+Pharmaceutical Solutions,2.0
+Itraconazole/analogs & derivatives,2.0
+Oxazolidinones/pharmacology,2.0
+Hydralazine/pharmacokinetics,2.0
+Muscle Relaxation/drug effects,2.0
+Pulmonary/complications,2.0
+Anti-Inflammatory Agents/blood,2.0
+Itraconazole/pharmacology,2.0
+Uric Acid/metabolism,2.0
+Amphotericin B/adverse effects,2.0
+Foodborne Diseases,2.0
+Cyclohexanecarboxylic Acids,2.0
+Acebutolol/urine,2.0
+Headache,2.0
+Metabolic,2.0
+Steroid 16-alpha-Hydroxylase,2.0
+Antimalarials/urine,2.0
+Antimalarials/pharmacology,2.0
+Panax/adverse effects,2.0
+Fluorobenzenes/therapeutic use,2.0
+Dairy Products,2.0
+Acetaminophen/pharmacology,2.0
+gamma-Aminobutyric Acid,2.0
+Omeprazole/pharmacology,2.0
+Clarithromycin/adverse effects,2.0
+Fleroxacin/blood,2.0
+Hormonal/adverse effects,2.0
+Messenger/biosynthesis,2.0
+Interstitial/etiology,2.0
+Carbonated Beverages,2.0
+Erythromycin/pharmacokinetics,2.0
+Fleroxacin/pharmacokinetics,2.0
+Celiprolol/urine,2.0
+Anticholesteremic Agents/pharmacology,2.0
+Kidney Diseases/drug therapy,2.0
+Gastric Acid/secretion,2.0
+Ofloxacin/urine,2.0
+Plantago/metabolism,2.0
+Nisoldipine/pharmacology,2.0
+Glutamine/isolation & purification,2.0
+Clozapine/pharmacokinetics,2.0
+Drug Combinations/adverse effects,2.0
+Rifampin/administration & dosage,2.0
+Coronary Disease/chemically induced,2.0
+Caffeine/urine,2.0
+Calcium Channel Blockers/administration & dosage,2.0
+Haplotypes/genetics,2.0
+Atherosclerosis,2.0
+Tetracycline/pharmacokinetics,2.0
+Itraconazole,2.0
+Vitamin K/chemistry,2.0
+Amlodipine/pharmacology,2.0
+Penicillins/metabolism,2.0
+Cephalosporins/pharmacokinetics,2.0
+Rhinitis,2.0
+Tranylcypromine/pharmacology,2.0
+Disulfiram,2.0
+Respiratory Tract Infections/drug therapy,2.0
+Hypnotics and Sedatives/pharmacology,2.0
+Lithium/therapeutic use,2.0
+Food/adverse effects,2.0
+Eleutherococcus/chemistry,2.0
+Ginger/adverse effects,2.0
+Second-Generation/therapeutic use,2.0
+Diazepam/administration & dosage,2.0
+Monoamine Oxidase Inhibitors/pharmacokinetics,2.0
+Quinidine/pharmacokinetics,2.0
+Inactivation,2.0
+Aldehyde Oxidoreductases/antagonists & inhibitors,2.0
+Lithium/pharmacokinetics,2.0
+Enzyme Induction/drug effects,2.0
+Heparin Antagonists,2.0
+Estradiol/administration & dosage,2.0
+Emotions/drug effects,2.0
+Anti-Arrhythmia Agents/urine,2.0
+Uracil/metabolism,2.0
+Ketoconazole/pharmacology,2.0
+Cimicifuga,2.0
+Aldehyde Dehydrogenase/antagonists & inhibitors,2.0
+Mixed Function Oxygenases/blood,2.0
+Thromboembolism/prevention & control,2.0
+Celiprolol/pharmacokinetics,2.0
+Non-Narcotic/therapeutic use,2.0
+Tranylcypromine/therapeutic use,2.0
+Mixed Function Oxygenases/physiology,2.0
+Agaricales,2.0
+Tyramine/metabolism,2.0
+Flavonoids/analysis,2.0
+Milk Thistle,2.0
+Sucralfate/pharmacology,2.0
+Trifluoperazine,2.0
+Magnoliopsida,2.0
+Fluorescence Polarization Immunoassay,2.0
+Pharyngitis/physiopathology,2.0
+Aluminum/metabolism,2.0
+Captopril/pharmacology,2.0
+Volunteers,2.0
+Antioxidants/therapeutic use,2.0
+Arteriosclerosis Obliterans/drug therapy,2.0
+Menstruation,2.0
+Glutamine/analogs & derivatives,2.0
+Digoxin/antagonists & inhibitors,2.0
+Hypercalcemia/diagnosis,2.0
+Tetrazoles/pharmacokinetics,2.0
+Quinolines/pharmacology,2.0
+Antimalarials/blood,2.0
+Fentanyl/analogs & derivatives,2.0
+Intestinal Absorption/physiology,2.0
+Acebutolol/blood,2.0
+Cytochrome P-450 CYP2D6 Inhibitors,2.0
+Acetaminophen/urine,2.0
+Thallium Radioisotopes,2.0
+Dyskinesia,2.0
+Citrus sinensis/chemistry,2.0
+Antidepressive Agents/pharmacology,2.0
+Enzyme Inhibitors/pharmacokinetics,2.0
+Aryl Hydrocarbon Hydroxylases/genetics,2.0
+Praziquantel/pharmacokinetics,2.0
+Phenylpropanolamine/pharmacokinetics,2.0
+Nutrition Assessment,2.0
+Phenanthrolines/therapeutic use,2.0
+Substance Abuse Detection,2.0
+Calcium/adverse effects,2.0
+Acute Kidney Injury/etiology,2.0
+Doxycycline/blood,2.0
+Venlafaxine Hydrochloride,2.0
+Flavonoids/blood,2.0
+Methoxsalen/pharmacology,2.0
+Alcohols,2.0
+Oxprenolol/administration & dosage,2.0
+Hydroxylamine,2.0
+Cardiotonic Agents/therapeutic use,2.0
+Phenylpropionates/pharmacokinetics,2.0
+Total,2.0
+Nifedipine/blood,2.0
+Drug Synergism,2.1875
+Analgesics,2.230769230769231
+Biotransformation,2.2857142857142856
+Diet,2.3333333333333335
+Hypertension/drug therapy,2.3333333333333335
+Fishes,2.3333333333333335
+Hypotension,2.5
+Immunosuppressive Agents/administration & dosage,2.5
+Alcohol Drinking/adverse effects,2.5
+Hematoma,2.5
+Depression/drug therapy,2.5
+Food Analysis,2.5
+Reaction Time/drug effects,2.6666666666666665
+Depressive Disorder/drug therapy,2.6666666666666665
+Blood Pressure/drug effects,2.75
+Anticoagulants/therapeutic use,2.8
+Citrus sinensis,3.0
+Mushroom Poisoning/etiology,3.0
+Western,3.0
+Erythromycin/administration & dosage,3.0
+Ethanol/pharmacokinetics,3.0
+Blood Coagulation/physiology,3.0
+Cardiotonic Agents/blood,3.0
+Dextromethorphan/pharmacokinetics,3.0
+Acetaminophen/therapeutic use,3.0
+Artemisinins,3.0
+Citrates/administration & dosage,3.0
+Sodium Bicarbonate,3.0
+MDR/genetics,3.0
+Disulfiram/pharmacology,3.0
+Heptanoic Acids/pharmacokinetics,3.0
+Anti-Inflammatory Agents/metabolism,3.0
+Ampicillin/urine,3.0
+Flicker Fusion/drug effects,3.0
+Quinolones,3.0
+Memory/drug effects,3.0
+Lorazepam/pharmacology,3.0
+Cheese/adverse effects,3.0
+Differential,3.0
+Ofloxacin,3.0
+Plant Extracts/blood,3.0
+Alprazolam/blood,3.0
+Pyrimidines/pharmacology,3.0
+Medicinal/adverse effects,3.0
+Troleandomycin/adverse effects,3.0
+Atrial Fibrillation/drug therapy,3.0
+Soybeans,3.0
+Psychoses,3.0
+Central Nervous System Stimulants/pharmacology,3.0
+Isoniazid/therapeutic use,3.0
+Vitamin K 1/pharmacology,3.0
+Nisoldipine/pharmacokinetics,3.0
+Foodborne Diseases/etiology,3.0
+Anti-Bacterial Agents/adverse effects,3.0
+Phenytoin/analysis,3.0
+Antihypertensive Agents/pharmacology,3.0
+Hydroxylamines/pharmacology,3.0
+Wine,3.0
+Carbamazepine/pharmacology,3.0
+Ibuprofen/pharmacokinetics,3.0
+HIV Protease Inhibitors/therapeutic use,3.0
+Nifedipine/administration & dosage,3.0
+Buspirone,3.0
+Ofloxacin/blood,3.0
+Omeprazole/blood,3.0
+Bicarbonates/pharmacology,3.0
+Amlodipine/pharmacokinetics,3.0
+Aluminum Hydroxide/pharmacology,3.0
+Naproxen/administration & dosage,3.0
+Formulated/analysis,3.0
+Enteral Nutrition/methods,3.0
+Carrier Proteins/metabolism,3.0
+Clozapine/adverse effects,3.0
+Parenteral Nutrition/adverse effects,3.0
+Schizophrenia/blood,3.0
+Hyperlipoproteinemia Type II/drug therapy,3.0
+Omeprazole/analogs & derivatives,3.0
+Coprinus,3.0
+Cytochrome P-450 Enzyme System/biosynthesis,3.0
+Dietary Fiber,3.0
+Monoamine Oxidase Inhibitors,3.0
+Benzodiazepines/pharmacokinetics,3.0
+Enoxacin,3.0
+Ketoprofen/pharmacokinetics,3.0
+Ibuprofen/administration & dosage,3.0
+Heart Transplantation,3.0
+Quinolines/pharmacokinetics,3.0
+Aluminum Hydroxide/adverse effects,3.0
+Vitamins,3.0
+Vasoconstrictor Agents/adverse effects,3.0
+Postural Balance/drug effects,3.0
+Meat,3.0
+Preschool,3.0
+Omeprazole/metabolism,3.0
+Substance-Induced/etiology,3.0
+Angiotensin-Converting Enzyme Inhibitors/pharmacokinetics,3.0
+Hemostatics/administration & dosage,3.0
+Thin Layer,3.0
+Central Nervous System Stimulants/metabolism,3.0
+Beer,3.0
+Antidepressive Agents/administration & dosage,3.0
+Flurbiprofen/pharmacokinetics,3.0
+Citrates/pharmacology,3.0
+Acetamides/blood,3.0
+Chinese Herbal/pharmacokinetics,3.0
+Captopril/therapeutic use,3.0
+Hypnotics and Sedatives/blood,3.0
+Bipolar Disorder/drug therapy,3.0
+Pyrroles/pharmacokinetics,3.0
+Hypercholesterolemia/drug therapy,3.0
+Antihypertensive Agents/pharmacokinetics,3.0
+Antitubercular Agents/adverse effects,3.0
+Chinese Traditional,3.0
+Felodipine/metabolism,3.0
+Hypoprothrombinemias/chemically induced,3.0
+Blood Coagulation Disorders/drug therapy,3.0
+Antifungal Agents/pharmacology,3.0
+Ethanol/antagonists & inhibitors,3.0
+Prednisolone/pharmacokinetics,3.0
+Ketoconazole/pharmacokinetics,3.0
+Cerebral Hemorrhage/chemically induced,3.0
+Felodipine/pharmacology,3.0
+Emulsions,3.0
+Anticoagulants/administration & dosage,3.0
+Benzodiazepines,3.0
+Itraconazole/administration & dosage,3.0
+Caffeine/therapeutic use,3.0
+Serotonin Syndrome/chemically induced,3.0
+Oxazolidinones/blood,3.0
+Antacids/metabolism,3.0
+Diclofenac/pharmacokinetics,3.0
+Phenylpropanolamine/adverse effects,3.0
+Saquinavir/pharmacokinetics,3.0
+Captopril/blood,3.0
+Aluminum Hydroxide/administration & dosage,3.0
+Anti-Anxiety Agents/blood,3.0
+Levofloxacin,3.0
+Tyramine/pharmacokinetics,3.0
+Warfarin/metabolism,3.0
+Histamine/poisoning,3.0
+Tea/adverse effects,3.0
+Naphthoquinones/administration & dosage,3.0
+Garlic/adverse effects,3.0
+Oral/pharmacology,3.0
+Plant Preparations/therapeutic use,3.0
+Citrus paradisi/metabolism,3.0
+Ampicillin/blood,3.0
+Inbred Strains,3.0
+Opioid/administration & dosage,3.0
+Benzamides/adverse effects,3.0
+Central Nervous System Depressants/blood,3.0
+Subcutaneous,3.0
+Diazepam/metabolism,3.0
+Anticonvulsants/blood,3.0
+Gastric Emptying/drug effects,3.0
+Diet/adverse effects,3.0
+Aminophylline/therapeutic use,3.0
+Epidural,3.0
+Seizures/drug therapy,3.0
+Lithium/adverse effects,3.0
+Alcoholic Beverages,3.0
+Plant Roots,3.0
+Buspirone/pharmacology,3.0
+Hypericum/therapeutic use,3.0
+Member 1/genetics,3.0
+Alcohol Drinking/metabolism,3.0
+Blood Coagulation Disorders/chemically induced,3.0
+Citric Acid,3.3333333333333335
+Delayed-Action Preparations,3.4285714285714284
+Antidepressive Agents/adverse effects,3.5
+Blood Coagulation/drug effects,3.6666666666666665
+Naphthoquinones/pharmacokinetics,4.0
+Tyramine/administration & dosage,4.0
+Cheese/analysis,4.0
+Plant Extracts/chemistry,4.0
+Acetamides/administration & dosage,4.0
+Fluoxetine/adverse effects,4.0
+Antipsychotic Agents/blood,4.0
+Pulmonary Embolism/drug therapy,4.0
+Anti-Arrhythmia Agents/pharmacokinetics,4.0
+Dihydroergotamine/adverse effects,4.0
+Felodipine/adverse effects,4.0
+Cimetidine/pharmacology,4.0
+Triazolam/pharmacokinetics,4.0
+Terfenadine/blood,4.0
+Schizophrenia/drug therapy,4.0
+Hydralazine/administration & dosage,4.0
+Anti-Infective Agents/urine,4.0
+Headache/chemically induced,4.0
+Motor Skills/drug effects,4.0
+Ampicillin/analogs & derivatives,4.0
+Ritonavir/adverse effects,4.0
+Verapamil/pharmacokinetics,4.0
+Tolbutamide/pharmacokinetics,4.0
+Prothrombin,4.0
+Non-Narcotic/administration & dosage,4.0
+Hydralazine/blood,4.0
+Atorvastatin Calcium,4.0
+Terfenadine/analogs & derivatives,4.0
+Triazolam/blood,4.0
+Atovaquone,4.0
+Ephedrine/adverse effects,4.0
+Antifungal Agents/adverse effects,4.0
+Erythromycin/analogs & derivatives,4.0
+Clozapine/blood,4.0
+Small/enzymology,4.0
+Fortified/adverse effects,4.0
+Rifampin/pharmacology,4.0
+Coffee/adverse effects,4.0
+Cytochrome P-450 CYP2C19,4.0
+Ginkgo biloba/adverse effects,4.0
+Pravastatin/pharmacokinetics,4.0
+Cytochrome P-450 CYP1A2,4.0
+Alprazolam/pharmacokinetics,4.0
+Fasting/physiology,4.0
+Midazolam/pharmacokinetics,4.0
+Ergotamine/administration & dosage,4.0
+Antioxidants/pharmacology,4.0
+Oxazolidinones/administration & dosage,4.0
+Monoamine Oxidase Inhibitors/administration & dosage,4.0
+Vitamin K/blood,4.0
+4-Quinolones,4.0
+Ultraviolet,4.0
+Felodipine/blood,4.0
+Oxazolidinones/pharmacokinetics,4.0
+Dietary Fiber/pharmacology,4.0
+Cytochrome P-450 CYP2D6/metabolism,4.0
+Anti-Bacterial Agents/blood,4.0
+Cytochrome P-450 Enzyme System/drug effects,4.0
+Chronic/therapy,4.0
+Affect/drug effects,4.0
+Nifedipine/pharmacokinetics,4.0
+Non-Narcotic/adverse effects,4.0
+Postprandial Period,4.0
+Formulated/adverse effects,4.0
+Diazepam/pharmacology,4.0
+Fortified,4.0
+Acetamides/pharmacokinetics,4.0
+Ergotamine/therapeutic use,4.0
+Berberine/pharmacology,4.0
+Dihydroergotamine/administration & dosage,4.0
+Central Nervous System Stimulants/blood,4.0
+Ofloxacin/pharmacokinetics,4.0
+Mental Processes/drug effects,4.0
+Aluminum/pharmacokinetics,4.0
+Proline/analogs & derivatives,4.0
+Anti-Arrhythmia Agents/blood,4.0
+Vitamin K/therapeutic use,4.0
+Hydroxymethylglutaryl-CoA Reductase Inhibitors/pharmacokinetics,4.0
+Anti-Bacterial Agents/pharmacokinetics,4.0
+Anti-Infective Agents/pharmacology,4.5
+Oxidoreductases,4.5
+Metabolic Clearance Rate,4.666666666666667
+Heart Rate/drug effects,4.833333333333333
+Eating/physiology,5.0
+Central Nervous System Stimulants/administration & dosage,5.0
+Tranylcypromine/adverse effects,5.0
+Drug Interactions/physiology,5.0
+Tyramine/analysis,5.0
+Naproxen/pharmacokinetics,5.0
+Hydroxymethylglutaryl-CoA Reductase Inhibitors/blood,5.0
+HIV Protease Inhibitors/adverse effects,5.0
+Wistar,5.0
+Pharmaceutical,5.0
+Hypercalcemia/chemically induced,5.0
+Antimalarials/pharmacokinetics,5.0
+Aryl Hydrocarbon Hydroxylases,5.0
+Acetaminophen/metabolism,5.0
+Antacids/adverse effects,5.0
+Warfarin/administration & dosage,5.0
+Organic Anion Transporters,5.0
+Vitamin K/metabolism,5.0
+Serotonin Uptake Inhibitors/adverse effects,5.0
+N-Demethylating/metabolism,5.0
+Digoxin/metabolism,5.0
+Electrocardiography/drug effects,5.0
+Ethanol/metabolism,5.0
+Beverages/analysis,5.0
+Anticoagulants/blood,5.0
+Ethanol/adverse effects,5.0
+Anticoagulants/pharmacokinetics,5.0
+Itraconazole/blood,5.0
+Acetaminophen/adverse effects,5.0
+Anti-Anxiety Agents/pharmacokinetics,5.0
+Amoxicillin/metabolism,5.0
+Yeast,5.0
+Hypercalcemia/complications,5.0
+Chinese Herbal/adverse effects,5.0
+Phenelzine/adverse effects,5.0
+Cytochrome P-450 Enzyme System/physiology,5.0
+Calcium Channel Blockers/adverse effects,5.0
+Ischemia/chemically induced,5.0
+Acetaldehyde/blood,5.0
+Drug Antagonism,5.0
+Adrenergic beta-Antagonists/pharmacokinetics,5.0
+HIV Protease Inhibitors/pharmacokinetics,5.0
+Chinese Herbal/therapeutic use,5.0
+Linezolid,5.0
+Ampicillin/metabolism,5.0
+Histamine H1 Antagonists/pharmacokinetics,5.0
+Anticholesteremic Agents/pharmacokinetics,6.0
+Itraconazole/pharmacokinetics,6.0
+Anti-Anxiety Agents/pharmacology,6.0
+Acetaminophen/blood,6.0
+Antifungal Agents/administration & dosage,6.0
+Carbamazepine/pharmacokinetics,6.0
+Ciprofloxacin/pharmacology,6.0
+Cytochrome P-450 CYP2C9,6.0
+Vaccinium macrocarpon,6.0
+Calcium Channel Blockers/blood,6.0
+Adrenergic beta-Antagonists/blood,6.0
+Phenytoin/metabolism,6.0
+Gas,6.0
+Tea,6.0
+Biological,6.0
+Nonparametric,6.0
+Cheese,6.0
+Warfarin/pharmacokinetics,6.0
+Dietary Fats/administration & dosage,6.0
+Hypnotics and Sedatives/pharmacokinetics,6.0
+Vitamin K/analysis,6.0
+Ginkgo biloba,6.0
+Non-Narcotic/pharmacokinetics,6.0
+Member 1/metabolism,6.0
+Therapeutic Equivalency,6.0
+Adrenergic beta-Antagonists/urine,6.0
+Simvastatin/pharmacokinetics,6.0
+Garlic,6.0
+Anti-Infective Agents/administration & dosage,6.0
+Enteral Nutrition/adverse effects,6.0
+Cytochrome P-450 CYP1A2 Inhibitors,6.0
+Aluminum/blood,6.0
+Isoniazid/adverse effects,6.0
+Theophylline/administration & dosage,6.5
+Psychomotor Performance/drug effects,6.5
+Plant Preparations/administration & dosage,7.0
+Ciprofloxacin/blood,7.0
+Furocoumarins/pharmacology,7.0
+Calcium Channel Blockers/pharmacology,7.0
+Cardiotonic Agents/pharmacokinetics,7.0
+Toxicology,7.0
+Cyclosporine/administration & dosage,7.0
+Erythromycin/adverse effects,7.0
+Diazepam/antagonists & inhibitors,7.0
+Acetaminophen/administration & dosage,7.0
+Felodipine/analogs & derivatives,7.0
+Fruit,7.0
+Chinese Herbal/pharmacology,7.0
+Warfarin/blood,7.0
+Dietary Supplements/adverse effects,7.0
+Capsules,7.0
+Moclobemide,7.0
+Sprague-Dawley,7.0
+Plant Preparations/pharmacology,7.0
+Flavanones,7.0
+Vitamin K/adverse effects,7.0
+Aminophylline/pharmacology,7.0
+Central Nervous System Stimulants/pharmacokinetics,7.0
+Anticoagulants/adverse effects,7.5
+Phenytoin/blood,8.0
+Coffee,8.0
+Drug Monitoring,8.0
+Phenytoin/pharmacokinetics,8.0
+Terfenadine/pharmacokinetics,8.0
+Dietary Proteins/pharmacology,8.0
+Plant Extracts/pharmacokinetics,8.0
+Antifungal Agents/blood,8.0
+Monoamine Oxidase Inhibitors/therapeutic use,8.0
+Theophylline/metabolism,8.0
+Gastrointestinal,8.0
+Flavonoids/pharmacology,8.0
+Mixed Function Oxygenases/metabolism,8.0
+Monoamine Oxidase Inhibitors/pharmacology,8.0
+Fluoroquinolones,9.0
+Tyramine/pharmacology,9.0
+Immunosuppressive Agents/blood,9.0
+Metabolic Clearance Rate/drug effects,9.0
+Antacids/pharmacology,9.0
+Phenytoin/administration & dosage,9.0
+Phytotherapy/adverse effects,9.0
+Dietary Fats/pharmacology,9.0
+Plant Extracts/therapeutic use,9.0
+Mixed Function Oxygenases/antagonists & inhibitors,9.0
+Panax,9.0
+Suspensions,9.0
+Ciprofloxacin/administration & dosage,9.0
+Warfarin/antagonists & inhibitors,10.0
+Hypericum,10.0
+Anticonvulsants/pharmacokinetics,10.0
+Formulated,10.0
+Non-Steroidal/pharmacokinetics,10.0
+Drug Interactions,10.0
+Dietary Carbohydrates/pharmacology,10.0
+Beverages/adverse effects,10.0
+Citrus/metabolism,10.0
+Plant Preparations/adverse effects,10.0
+Vitamin K/pharmacology,10.0
+Intestinal Absorption/drug effects,10.5
+Plant Extracts/administration & dosage,11.0
+Anti-Infective Agents/blood,11.0
+Migraine Disorders/drug therapy,11.0
+Theophylline/blood,11.0
+Aryl Hydrocarbon Hydroxylases/metabolism,11.0
+Antidepressive Agents,11.0
+Antifungal Agents/pharmacokinetics,11.0
+Caffeine/adverse effects,11.0
+Food-Drug Interactions/physiology,11.0
+Plant Extracts/pharmacology,11.5
+Intestinal Absorption,11.5
+Cytochrome P-450 CYP1A2/metabolism,12.0
+Ergotamine/adverse effects,12.0
+Citrus/chemistry,12.0
+Immunosuppressive Agents/pharmacokinetics,12.0
+Digoxin/blood,12.0
+Felodipine/pharmacokinetics,12.0
+Citrus paradisi,12.0
+Vegetables,12.0
+Kidney Transplantation,12.0
+Tyramine/adverse effects,12.0
+Theophylline/pharmacokinetics,13.0
+Calcium Channel Blockers/pharmacokinetics,13.0
+Plant Extracts/adverse effects,13.0
+Caffeine/blood,13.0
+Acetaminophen/pharmacokinetics,13.0
+Combination,13.0
+Tablets,14.0
+Prothrombin Time,14.0
+Ergotism/etiology,14.0
+Caffeine/metabolism,14.0
+Sub-Family B,14.0
+Anticoagulants/pharmacology,14.0
+Fasting,14.0
+Ciprofloxacin/pharmacokinetics,15.0
+Ethanol/pharmacology,15.0
+Cyclosporine/blood,15.0
+80 and over,15.0
+Biological Availability,15.555555555555555
+Hypertension/chemically induced,16.0
+Caffeine/administration & dosage,16.0
+Digoxin/pharmacokinetics,16.0
+Hypericum/adverse effects,16.0
+Warfarin/adverse effects,16.0
+Food,16.2
+Anti-Infective Agents/pharmacokinetics,17.0
+Monoamine Oxidase Inhibitors/adverse effects,17.0
+Cytochrome P-450 Enzyme System/metabolism,17.5
+Ethanol/blood,18.0
+Area Under Curve,18.6
+Vitamin K/administration & dosage,19.0
+Cytochrome P-450 Enzyme Inhibitors,20.0
+International Normalized Ratio,20.0
+Caffeine/pharmacokinetics,20.0
+Herb-Drug Interactions,20.0
+Cyclosporine/pharmacokinetics,21.0
+Eating,21.0
+Warfarin/pharmacology,21.0
+Enteral Nutrition,22.0
+Phytotherapy,22.0
+Warfarin/therapeutic use,23.0
+Cross-Over Studies,25.6
+Caffeine/pharmacology,27.0
+Half-Life,30.0
+Intravenous,31.0
+Medicinal,32.0
+Drug,37.0
+Cytochrome P-450 CYP3A,45.0
+High Pressure Liquid,51.0
+Citrus,75.0
+Food-Drug Interactions,104.0
+Oral,110.0
+Beverages,116.0
